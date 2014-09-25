@@ -1,0 +1,518 @@
+<html>
+  <head>
+    <title>marionette.functions - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select>
+          
+            <option value="v0.1.0">v0.1.0</option>
+          
+            <option value="v0.10.0">v0.10.0</option>
+          
+            <option value="v0.10.1">v0.10.1</option>
+          
+            <option value="v0.10.2">v0.10.2</option>
+          
+            <option value="v0.2.0">v0.2.0</option>
+          
+            <option value="v0.2.1">v0.2.1</option>
+          
+            <option value="v0.2.2">v0.2.2</option>
+          
+            <option value="v0.2.3">v0.2.3</option>
+          
+            <option value="v0.2.4">v0.2.4</option>
+          
+            <option value="v0.2.5">v0.2.5</option>
+          
+            <option value="v0.2.6">v0.2.6</option>
+          
+            <option value="v0.3.0">v0.3.0</option>
+          
+            <option value="v0.3.1">v0.3.1</option>
+          
+            <option value="v0.4.0">v0.4.0</option>
+          
+            <option value="v0.4.1">v0.4.1</option>
+          
+            <option value="v0.4.1a">v0.4.1a</option>
+          
+            <option value="v0.4.2">v0.4.2</option>
+          
+            <option value="v0.4.3">v0.4.3</option>
+          
+            <option value="v0.4.4">v0.4.4</option>
+          
+            <option value="v0.4.5">v0.4.5</option>
+          
+            <option value="v0.4.6">v0.4.6</option>
+          
+            <option value="v0.4.7">v0.4.7</option>
+          
+            <option value="v0.4.8">v0.4.8</option>
+          
+            <option value="v0.5.0">v0.5.0</option>
+          
+            <option value="v0.5.1">v0.5.1</option>
+          
+            <option value="v0.5.2">v0.5.2</option>
+          
+            <option value="v0.6.0">v0.6.0</option>
+          
+            <option value="v0.6.1">v0.6.1</option>
+          
+            <option value="v0.6.2">v0.6.2</option>
+          
+            <option value="v0.6.3">v0.6.3</option>
+          
+            <option value="v0.7.0">v0.7.0</option>
+          
+            <option value="v0.7.1">v0.7.1</option>
+          
+            <option value="v0.7.2">v0.7.2</option>
+          
+            <option value="v0.7.3">v0.7.3</option>
+          
+            <option value="v0.7.4">v0.7.4</option>
+          
+            <option value="v0.7.5">v0.7.5</option>
+          
+            <option value="v0.7.6">v0.7.6</option>
+          
+            <option value="v0.8.0">v0.8.0</option>
+          
+            <option value="v0.8.1">v0.8.1</option>
+          
+            <option value="v0.8.2">v0.8.2</option>
+          
+            <option value="v0.8.3">v0.8.3</option>
+          
+            <option value="v0.8.4">v0.8.4</option>
+          
+            <option value="v0.9.0">v0.9.0</option>
+          
+            <option value="v0.9.1">v0.9.1</option>
+          
+            <option value="v0.9.10">v0.9.10</option>
+          
+            <option value="v0.9.11">v0.9.11</option>
+          
+            <option value="v0.9.12">v0.9.12</option>
+          
+            <option value="v0.9.13">v0.9.13</option>
+          
+            <option value="v0.9.2">v0.9.2</option>
+          
+            <option value="v0.9.3">v0.9.3</option>
+          
+            <option value="v0.9.4">v0.9.4</option>
+          
+            <option value="v0.9.5">v0.9.5</option>
+          
+            <option value="v0.9.6">v0.9.6</option>
+          
+            <option value="v0.9.7">v0.9.7</option>
+          
+            <option value="v0.9.8">v0.9.8</option>
+          
+            <option value="v0.9.9">v0.9.9</option>
+          
+            <option value="v1.0.0">v1.0.0</option>
+          
+            <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+          
+            <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+          
+            <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+          
+            <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+          
+            <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+          
+            <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+          
+            <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+          
+            <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+          
+            <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+          
+            <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+          
+            <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+          
+            <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+          
+            <option value="v1.0.1">v1.0.1</option>
+          
+            <option value="v1.0.2">v1.0.2</option>
+          
+            <option value="v1.0.3">v1.0.3</option>
+          
+            <option value="v1.0.4">v1.0.4</option>
+          
+            <option value="v1.1.0">v1.1.0</option>
+          
+            <option value="v1.2.0">v1.2.0</option>
+          
+            <option value="v1.2.1">v1.2.1</option>
+          
+            <option value="v1.2.2">v1.2.2</option>
+          
+            <option value="v1.2.3">v1.2.3</option>
+          
+            <option value="v1.3.0">v1.3.0</option>
+          
+            <option value="v1.4.0">v1.4.0</option>
+          
+            <option value="v1.4.0beta">v1.4.0beta</option>
+          
+            <option value="v1.4.1">v1.4.1</option>
+          
+            <option value="v1.5.0">v1.5.0</option>
+          
+            <option value="v1.5.1">v1.5.1</option>
+          
+            <option value="v1.6.0">v1.6.0</option>
+          
+            <option value="v1.6.1">v1.6.1</option>
+          
+            <option value="v1.6.2">v1.6.2</option>
+          
+            <option value="v1.6.3">v1.6.3</option>
+          
+            <option value="v1.6.4">v1.6.4</option>
+          
+            <option value="v1.7">v1.7</option>
+          
+            <option value="v1.7.1">v1.7.1</option>
+          
+            <option value="v1.7.2">v1.7.2</option>
+          
+            <option value="v1.7.3">v1.7.3</option>
+          
+            <option value="v1.7.4">v1.7.4</option>
+          
+            <option value="v1.8.0">v1.8.0</option>
+          
+            <option value="v1.8.1">v1.8.1</option>
+          
+            <option value="v1.8.2">v1.8.2</option>
+          
+            <option value="v1.8.3">v1.8.3</option>
+          
+            <option value="v1.8.4">v1.8.4</option>
+          
+            <option value="v1.8.5">v1.8.5</option>
+          
+            <option value="v1.8.6">v1.8.6</option>
+          
+            <option value="v1.8.7">v1.8.7</option>
+          
+            <option value="v1.8.8">v1.8.8</option>
+          
+            <option value="v2.0.0">v2.0.0</option>
+          
+            <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+          
+            <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+          
+            <option value="v2.0.1">v2.0.1</option>
+          
+            <option value="v2.0.2">v2.0.2</option>
+          
+            <option value="v2.0.3">v2.0.3</option>
+          
+            <option value="v2.1.0">v2.1.0</option>
+          
+            <option value="v2.1.0-pre">v2.1.0-pre</option>
+          
+            <option value="v2.2.0">v2.2.0</option>
+          
+            <option value="v2.2.0-pre">v2.2.0-pre</option>
+          
+            <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+          
+            <option value="v2.2.1">v2.2.1</option>
+          
+        </select>
+        <nav>
+          
+            <a href="marionette.application.html">marionette.application</a>
+          
+            <a href="marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="marionette.controller.html">marionette.controller</a>
+          
+            <a href="marionette.functions.html">marionette.functions</a>
+          
+            <a href="marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="marionette.layoutview.html">marionette.layoutview</a>
+          
+            <a href="marionette.module.html">marionette.module</a>
+          
+            <a href="marionette.region.html">marionette.region</a>
+          
+            <a href="marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="marionette.view.html">marionette.view</a>
+          
+            <a href="readme.html">readme</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <pre>{
+  &quot;tag&quot;: &quot;v2.0.3&quot;,
+  &quot;basename&quot;: &quot;marionette.functions&quot;,
+  &quot;filenane&quot;: &quot;marionette.functions.md&quot;,
+  &quot;pathname&quot;: &quot;/Users/sam/Desktop/repos/marionettejs.com/.grunt/compileDocs/1411613555901/v2.0.3&quot;,
+  &quot;contents&quot;: &quot;&lt;h1&gt;&lt;a name=\&quot;marionette-functions\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-functions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette functions&lt;/h1&gt;&lt;p&gt;Marionette provides a set of utility / helper functions that are used to\nfacilitate common behaviors throughout the framework. These functions may\nbe useful to those that are building on top of Marionette, as they provide\na way to get the same behaviors and conventions from your own code.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;documentation-index\&quot; class=\&quot;anchor\&quot; href=\&quot;#documentation-index\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Documentation Index&lt;/h2&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionetteextend\&quot;&gt;Marionette.extend&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionettegetoption\&quot;&gt;Marionette.getOption&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionetteproxygetoption\&quot;&gt;Marionette.proxyGetOption&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionettetriggermethod\&quot;&gt;Marionette.triggerMethod&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionettebindentityevents\&quot;&gt;Marionette.bindEntityEvent&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionetteunbindentityevents\&quot;&gt;Marionette.unbindEntityEvents&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionetteproxybindentityevents\&quot;&gt;Marionette.proxyBindEntityEvent&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionettenormalizemethods\&quot;&gt;Marionette.normalizeMethods&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionettenormalizeuikeys\&quot;&gt;Marionette.normalizeUIKeys&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#marionetteactascollection\&quot;&gt;Marionette.actAsCollection&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-extend\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-extend\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.extend&lt;/h2&gt;&lt;p&gt;Backbone&amp;#39;s &lt;code&gt;extend&lt;/code&gt; function is a useful utility to have, and is used in\nvarious places in Marionette. To make the use of this method more consistent,\nBackbone&amp;#39;s &lt;code&gt;extend&lt;/code&gt; has been aliased to &lt;code&gt;Marionette.extend&lt;/code&gt;. This allows\nyou to get the extend functionality for your object without having to\ndecide if you want to use Backbone.View or Backbone.Model or another\nBackbone object to grab the method from.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; Foo = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{};\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// use Marionette.extend to make Foo extendable, just like other&lt;/span&gt;\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Backbone and Marionette objects&lt;/span&gt;\nFoo.extend = Marionette.extend;\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Now Foo can be extended to create a new class, with methods&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; Bar = Foo.extend({\n\n  someMethod: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{ ... }\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// ...&lt;/span&gt;\n});\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Create an instance of Bar&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; b = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Bar();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-getoption\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-getoption\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.getOption&lt;/h2&gt;&lt;p&gt;Retrieve an object&amp;#39;s attribute either directly from the object, or from\nthe object&amp;#39;s &lt;code&gt;this.options&lt;/code&gt;, with &lt;code&gt;this.options&lt;/code&gt; taking precedence.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; M = Backbone.Model.extend({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;bar\&quot;&lt;/span&gt;,\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; f = Marionette.getOption(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(f);\n  }\n});\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; M(); &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; \&quot;bar\&quot;&lt;/span&gt;\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; M({}, { foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;quux\&quot;&lt;/span&gt; }); &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; \&quot;quux\&quot;&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This is useful when building an object that can have configuration set\nin either the object definition or the object&amp;#39;s constructor options.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;falsey-values\&quot; class=\&quot;anchor\&quot; href=\&quot;#falsey-values\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Falsey values&lt;/h3&gt;&lt;p&gt;The &lt;code&gt;getOption&lt;/code&gt; function will return any falsey value from the &lt;code&gt;options&lt;/code&gt;,\nother than &lt;code&gt;undefined&lt;/code&gt;. If an object&amp;#39;s options has an undefined value, it will\nattempt to read the value from the object directly.&lt;/p&gt;\n&lt;p&gt;For example:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; M = Backbone.Model.extend({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;bar\&quot;&lt;/span&gt;,\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; f = Marionette.getOption(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(f);\n  }\n});\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; M(); &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; \&quot;bar\&quot;&lt;/span&gt;\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; f;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; M({}, { foo: f }); &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; \&quot;bar\&quot;&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;In this example, &amp;quot;bar&amp;quot; is returned both times because the second\nexample has an undefined value for &lt;code&gt;f&lt;/code&gt;.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-proxygetoption\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-proxygetoption\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.proxyGetOption&lt;/h2&gt;&lt;p&gt;This method proxies &lt;code&gt;Marionette.getOption&lt;/code&gt; so that it can be easily added to an instance.&lt;/p&gt;\n&lt;p&gt;Say you&amp;#39;ve written your own Pagination class and you always pass options to it.\nWith &lt;code&gt;proxyGetOption&lt;/code&gt;, you can easily give this class the &lt;code&gt;getOption&lt;/code&gt; function.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;_.extend(Pagination.prototype, {\n\n  getFoo: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;return&lt;/span&gt; &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.getOption(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n  },\n\n  getOption: Marionette.proxyGetOption\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-triggermethod\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-triggermethod\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.triggerMethod&lt;/h2&gt;&lt;p&gt;Trigger an event and a corresponding method on the target object.&lt;/p&gt;\n&lt;p&gt;When an event is triggered, the first letter of each section of the\nevent name is capitalized, and the word &amp;quot;on&amp;quot; is tagged on to the front\nof it. Examples:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;code&gt;triggerMethod(&amp;quot;render&amp;quot;)&lt;/code&gt; fires the &amp;quot;onRender&amp;quot; function&lt;/li&gt;\n&lt;li&gt;&lt;code&gt;triggerMethod(&amp;quot;before:destroy&amp;quot;)&lt;/code&gt; fires the &amp;quot;onBeforeDestroy&amp;quot; function&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;All arguments that are passed to the triggerMethod call are passed along to both the event and the method, with the exception of the event name not being passed to the corresponding method.&lt;/p&gt;\n&lt;p&gt;&lt;code&gt;triggerMethod(&amp;quot;foo&amp;quot;, bar)&lt;/code&gt; will call &lt;code&gt;onFoo: function(bar){...})&lt;/code&gt;&lt;/p&gt;\n&lt;p&gt;Note that &lt;code&gt;triggerMethod&lt;/code&gt; can be called on objects that do not have\n&lt;code&gt;Backbone.Events&lt;/code&gt; mixed in to them. These objects will not have a &lt;code&gt;trigger&lt;/code&gt;\nmethod, and no attempt to call &lt;code&gt;.trigger()&lt;/code&gt; will be made. The &lt;code&gt;on{Name}&lt;/code&gt;\ncallback methods will still be called, though.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-bindentityevents\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-bindentityevents\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.bindEntityEvents&lt;/h2&gt;&lt;p&gt;This method is used to bind a backbone &amp;quot;entity&amp;quot; (collection/model)\nto methods on a target object.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;Backbone.View.extend({\n\n  modelEvents: {\n    &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;change:foo\&quot;&lt;/span&gt;: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;doSomething\&quot;&lt;/span&gt;\n  },\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    Marionette.bindEntityEvents(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.model, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.modelEvents);\n  },\n\n  doSomething: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// the \&quot;change:foo\&quot; event was fired from the model&lt;/span&gt;\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// respond to it appropriately, here.&lt;/span&gt;\n  }\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The first parameter, &lt;code&gt;target&lt;/code&gt;, must have a &lt;code&gt;listenTo&lt;/code&gt; method from the\nEventBinder object.&lt;/p&gt;\n&lt;p&gt;The second parameter is the entity (Backbone.Model or Backbone.Collection)\nto bind the events from.&lt;/p&gt;\n&lt;p&gt;The third parameter is a hash of { &amp;quot;event:name&amp;quot;: &amp;quot;eventHandler&amp;quot; }\nconfiguration. Multiple handlers can be separated by a space. A\nfunction can be supplied instead of a string handler name.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-unbindentityevents\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-unbindentityevents\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.unbindEntityEvents&lt;/h2&gt;&lt;p&gt;This method can be used to unbind callbacks from entities&amp;#39; (collection/model) events. It&amp;#39;s\nthe opposite of bindEntityEvents, described above. Consequently, the APIs are identical for each method.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-comment\&quot;&gt;// Just like the above example we bind our model events.&lt;/span&gt;\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// This time, however, we unbind them on close.&lt;/span&gt;\nBackbone.View.extend({\n\n  modelEvents: {\n    &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;change:foo\&quot;&lt;/span&gt;: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;doSomething\&quot;&lt;/span&gt;\n  },\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    Marionette.bindEntityEvents(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.model, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.modelEvents);\n  },\n\n  doSomething: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// the \&quot;change:foo\&quot; event was fired from the model&lt;/span&gt;\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// respond to it appropriately, here.&lt;/span&gt;\n  },\n\n  onClose: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{\n    Marionette.unbindEntityEvents(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.model, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.modelEvents);\n  }\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-proxybindentityevents\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-proxybindentityevents\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.proxyBindEntityEvents&lt;/h2&gt;&lt;p&gt;This method proxies &lt;code&gt;Marionette.bindEntityEvents&lt;/code&gt; so that it can easily be added to an instance.&lt;/p&gt;\n&lt;p&gt;Say you&amp;#39;ve written your own Pagination class and you want to easily listen to some entities events.\nWith &lt;code&gt;proxyBindEntityEvents&lt;/code&gt;, you can easily give this class the &lt;code&gt;bindEntityEvents&lt;/code&gt; function.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;_.extend(Pagination.prototype, {\n\n   bindSomething: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{\n     &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.bindEntityEvents(&lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.something, &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.somethingEvents)\n   },\n\n   bindEntityEvents: Marionette.proxyBindEntityEvents\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-normalizemethods\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-normalizemethods\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.normalizeMethods&lt;/h2&gt;&lt;p&gt;Receives a hash of event names and functions and/or function names, and returns the\nsame hash with the function names replaced with the function references themselves.&lt;/p&gt;\n&lt;p&gt;This function is attached to the &lt;code&gt;Marionette.View&lt;/code&gt; prototype by default. To use it from non-View classes you&amp;#39;ll need to attach it yourself.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; View = Marionette.ItemView.extend({\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.someFn = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{};\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.someOtherFn = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{};\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; hash = {\n      eventOne: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;someFn\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-comment\&quot;&gt;// This will become a reference to &#x60;this.someFn&#x60;&lt;/span&gt;\n      eventTwo: &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.someOtherFn\n    };\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.normalizedHash = &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.normalizeMethods(hash);\n  }\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-normalizeuikeys\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-normalizeuikeys\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.normalizeUIKeys&lt;/h2&gt;&lt;p&gt;This method allows you to use the &lt;code&gt;@ui.&lt;/code&gt; syntax within a given key for triggers and events hashes. It\nswaps the &lt;code&gt;@ui.&lt;/code&gt; reference with the associated selector.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; hash = {\n  &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;click @ui.list&#x27;&lt;/span&gt;: &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;myCb&#x27;&lt;/span&gt;\n};\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; ui = {\n  &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;list&#x27;&lt;/span&gt;: &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;ul&#x27;&lt;/span&gt;\n};\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// This sets &#x27;click @ui.list&#x27; to be &#x27;click ul&#x27; in the newHash object&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; newHash = Marionette.normalizeUIKeys(hash, ui);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;marionette-actascollection\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-actascollection\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.actAsCollection&lt;/h2&gt;&lt;p&gt;Utility function for mixing in underscore collection behavior to an object.&lt;/p&gt;\n&lt;p&gt;It works by taking an object and a property field, in this example &amp;#39;list&amp;#39;,\nand appending collection functions to the object so that it can\ndelegate collection calls to its list.&lt;/p&gt;\n&lt;h4&gt;&lt;a name=\&quot;object-literal\&quot; class=\&quot;anchor\&quot; href=\&quot;#object-literal\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Object Literal&lt;/h4&gt;&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; obj = {\n  list: [&lt;span class=\&quot;hljs-number\&quot;&gt;1&lt;/span&gt;, &lt;span class=\&quot;hljs-number\&quot;&gt;2&lt;/span&gt;, &lt;span class=\&quot;hljs-number\&quot;&gt;3&lt;/span&gt;]\n}\n\nMarionette.actAsCollection(obj, &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;list&#x27;&lt;/span&gt;);\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; double = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(v)&lt;/span&gt;&lt;/span&gt;{ &lt;span class=\&quot;hljs-keyword\&quot;&gt;return&lt;/span&gt; v*&lt;span class=\&quot;hljs-number\&quot;&gt;2&lt;/span&gt;};\n&lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(obj.map(double)); &lt;span class=\&quot;hljs-comment\&quot;&gt;// [2, 4, 6]&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h4&gt;&lt;a name=\&quot;function-prototype\&quot; class=\&quot;anchor\&quot; href=\&quot;#function-prototype\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Function Prototype&lt;/h4&gt;&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; Func = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(list)&lt;/span&gt; &lt;/span&gt;{\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.list = list;\n};\n\nMarionette.actAsCollection(Func.prototype, &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;list&#x27;&lt;/span&gt;);\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; func = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Func([&lt;span class=\&quot;hljs-number\&quot;&gt;1&lt;/span&gt;,&lt;span class=\&quot;hljs-number\&quot;&gt;2&lt;/span&gt;,&lt;span class=\&quot;hljs-number\&quot;&gt;3&lt;/span&gt;]);\n\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; double = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(v)&lt;/span&gt;&lt;/span&gt;{ &lt;span class=\&quot;hljs-keyword\&quot;&gt;return&lt;/span&gt; v*&lt;span class=\&quot;hljs-number\&quot;&gt;2&lt;/span&gt;};\n&lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(func.map(double)); &lt;span class=\&quot;hljs-comment\&quot;&gt;// [2, 4, 6]&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The first parameter is the object that will delegate underscore collection methods.&lt;/p&gt;\n&lt;p&gt;The second parameter is the object field that will hold the list.&lt;/p&gt;\n&quot;
+}</pre>
+        <h1><a name="marionette-functions" class="anchor" href="#marionette-functions"><span class="header-link"></span></a>Marionette functions</h1><p>Marionette provides a set of utility / helper functions that are used to
+facilitate common behaviors throughout the framework. These functions may
+be useful to those that are building on top of Marionette, as they provide
+a way to get the same behaviors and conventions from your own code.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#marionetteextend">Marionette.extend</a></li>
+<li><a href="#marionettegetoption">Marionette.getOption</a></li>
+<li><a href="#marionetteproxygetoption">Marionette.proxyGetOption</a></li>
+<li><a href="#marionettetriggermethod">Marionette.triggerMethod</a></li>
+<li><a href="#marionettebindentityevents">Marionette.bindEntityEvent</a></li>
+<li><a href="#marionetteunbindentityevents">Marionette.unbindEntityEvents</a></li>
+<li><a href="#marionetteproxybindentityevents">Marionette.proxyBindEntityEvent</a></li>
+<li><a href="#marionettenormalizemethods">Marionette.normalizeMethods</a></li>
+<li><a href="#marionettenormalizeuikeys">Marionette.normalizeUIKeys</a></li>
+<li><a href="#marionetteactascollection">Marionette.actAsCollection</a></li>
+</ul>
+<h2><a name="marionette-extend" class="anchor" href="#marionette-extend"><span class="header-link"></span></a>Marionette.extend</h2><p>Backbone&#39;s <code>extend</code> function is a useful utility to have, and is used in
+various places in Marionette. To make the use of this method more consistent,
+Backbone&#39;s <code>extend</code> has been aliased to <code>Marionette.extend</code>. This allows
+you to get the extend functionality for your object without having to
+decide if you want to use Backbone.View or Backbone.Model or another
+Backbone object to grab the method from.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> Foo = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{};
+
+<span class="hljs-comment">// use Marionette.extend to make Foo extendable, just like other</span>
+<span class="hljs-comment">// Backbone and Marionette objects</span>
+Foo.extend = Marionette.extend;
+
+<span class="hljs-comment">// Now Foo can be extended to create a new class, with methods</span>
+<span class="hljs-keyword">var</span> Bar = Foo.extend({
+
+  someMethod: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ ... }
+
+  <span class="hljs-comment">// ...</span>
+});
+
+<span class="hljs-comment">// Create an instance of Bar</span>
+<span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> Bar();
+</code></pre>
+<h2><a name="marionette-getoption" class="anchor" href="#marionette-getoption"><span class="header-link"></span></a>Marionette.getOption</h2><p>Retrieve an object&#39;s attribute either directly from the object, or from
+the object&#39;s <code>this.options</code>, with <code>this.options</code> taking precedence.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> M = Backbone.Model.extend({
+  foo: <span class="hljs-string">"bar"</span>,
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">var</span> f = Marionette.getOption(<span class="hljs-keyword">this</span>, <span class="hljs-string">"foo"</span>);
+    <span class="hljs-built_in">console</span>.log(f);
+  }
+});
+
+<span class="hljs-keyword">new</span> M(); <span class="hljs-comment">// =&gt; "bar"</span>
+
+<span class="hljs-keyword">new</span> M({}, { foo: <span class="hljs-string">"quux"</span> }); <span class="hljs-comment">// =&gt; "quux"</span>
+</code></pre>
+<p>This is useful when building an object that can have configuration set
+in either the object definition or the object&#39;s constructor options.</p>
+<h3><a name="falsey-values" class="anchor" href="#falsey-values"><span class="header-link"></span></a>Falsey values</h3><p>The <code>getOption</code> function will return any falsey value from the <code>options</code>,
+other than <code>undefined</code>. If an object&#39;s options has an undefined value, it will
+attempt to read the value from the object directly.</p>
+<p>For example:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> M = Backbone.Model.extend({
+  foo: <span class="hljs-string">"bar"</span>,
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">var</span> f = Marionette.getOption(<span class="hljs-keyword">this</span>, <span class="hljs-string">"foo"</span>);
+    <span class="hljs-built_in">console</span>.log(f);
+  }
+});
+
+<span class="hljs-keyword">new</span> M(); <span class="hljs-comment">// =&gt; "bar"</span>
+
+<span class="hljs-keyword">var</span> f;
+<span class="hljs-keyword">new</span> M({}, { foo: f }); <span class="hljs-comment">// =&gt; "bar"</span>
+</code></pre>
+<p>In this example, &quot;bar&quot; is returned both times because the second
+example has an undefined value for <code>f</code>.</p>
+<h2><a name="marionette-proxygetoption" class="anchor" href="#marionette-proxygetoption"><span class="header-link"></span></a>Marionette.proxyGetOption</h2><p>This method proxies <code>Marionette.getOption</code> so that it can be easily added to an instance.</p>
+<p>Say you&#39;ve written your own Pagination class and you always pass options to it.
+With <code>proxyGetOption</code>, you can easily give this class the <code>getOption</code> function.</p>
+<pre><code class="lang-js">_.extend(Pagination.prototype, {
+
+  getFoo: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOption(<span class="hljs-string">"foo"</span>);
+  },
+
+  getOption: Marionette.proxyGetOption
+});
+</code></pre>
+<h2><a name="marionette-triggermethod" class="anchor" href="#marionette-triggermethod"><span class="header-link"></span></a>Marionette.triggerMethod</h2><p>Trigger an event and a corresponding method on the target object.</p>
+<p>When an event is triggered, the first letter of each section of the
+event name is capitalized, and the word &quot;on&quot; is tagged on to the front
+of it. Examples:</p>
+<ul>
+<li><code>triggerMethod(&quot;render&quot;)</code> fires the &quot;onRender&quot; function</li>
+<li><code>triggerMethod(&quot;before:destroy&quot;)</code> fires the &quot;onBeforeDestroy&quot; function</li>
+</ul>
+<p>All arguments that are passed to the triggerMethod call are passed along to both the event and the method, with the exception of the event name not being passed to the corresponding method.</p>
+<p><code>triggerMethod(&quot;foo&quot;, bar)</code> will call <code>onFoo: function(bar){...})</code></p>
+<p>Note that <code>triggerMethod</code> can be called on objects that do not have
+<code>Backbone.Events</code> mixed in to them. These objects will not have a <code>trigger</code>
+method, and no attempt to call <code>.trigger()</code> will be made. The <code>on{Name}</code>
+callback methods will still be called, though.</p>
+<h2><a name="marionette-bindentityevents" class="anchor" href="#marionette-bindentityevents"><span class="header-link"></span></a>Marionette.bindEntityEvents</h2><p>This method is used to bind a backbone &quot;entity&quot; (collection/model)
+to methods on a target object.</p>
+<pre><code class="lang-js">Backbone.View.extend({
+
+  modelEvents: {
+    <span class="hljs-string">"change:foo"</span>: <span class="hljs-string">"doSomething"</span>
+  },
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    Marionette.bindEntityEvents(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>.model, <span class="hljs-keyword">this</span>.modelEvents);
+  },
+
+  doSomething: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// the "change:foo" event was fired from the model</span>
+    <span class="hljs-comment">// respond to it appropriately, here.</span>
+  }
+
+});
+</code></pre>
+<p>The first parameter, <code>target</code>, must have a <code>listenTo</code> method from the
+EventBinder object.</p>
+<p>The second parameter is the entity (Backbone.Model or Backbone.Collection)
+to bind the events from.</p>
+<p>The third parameter is a hash of { &quot;event:name&quot;: &quot;eventHandler&quot; }
+configuration. Multiple handlers can be separated by a space. A
+function can be supplied instead of a string handler name.</p>
+<h2><a name="marionette-unbindentityevents" class="anchor" href="#marionette-unbindentityevents"><span class="header-link"></span></a>Marionette.unbindEntityEvents</h2><p>This method can be used to unbind callbacks from entities&#39; (collection/model) events. It&#39;s
+the opposite of bindEntityEvents, described above. Consequently, the APIs are identical for each method.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Just like the above example we bind our model events.</span>
+<span class="hljs-comment">// This time, however, we unbind them on close.</span>
+Backbone.View.extend({
+
+  modelEvents: {
+    <span class="hljs-string">"change:foo"</span>: <span class="hljs-string">"doSomething"</span>
+  },
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    Marionette.bindEntityEvents(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>.model, <span class="hljs-keyword">this</span>.modelEvents);
+  },
+
+  doSomething: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// the "change:foo" event was fired from the model</span>
+    <span class="hljs-comment">// respond to it appropriately, here.</span>
+  },
+
+  onClose: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    Marionette.unbindEntityEvents(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>.model, <span class="hljs-keyword">this</span>.modelEvents);
+  }
+
+});
+</code></pre>
+<h2><a name="marionette-proxybindentityevents" class="anchor" href="#marionette-proxybindentityevents"><span class="header-link"></span></a>Marionette.proxyBindEntityEvents</h2><p>This method proxies <code>Marionette.bindEntityEvents</code> so that it can easily be added to an instance.</p>
+<p>Say you&#39;ve written your own Pagination class and you want to easily listen to some entities events.
+With <code>proxyBindEntityEvents</code>, you can easily give this class the <code>bindEntityEvents</code> function.</p>
+<pre><code class="lang-js">_.extend(Pagination.prototype, {
+
+   bindSomething: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+     <span class="hljs-keyword">this</span>.bindEntityEvents(<span class="hljs-keyword">this</span>.something, <span class="hljs-keyword">this</span>.somethingEvents)
+   },
+
+   bindEntityEvents: Marionette.proxyBindEntityEvents
+
+});
+</code></pre>
+<h2><a name="marionette-normalizemethods" class="anchor" href="#marionette-normalizemethods"><span class="header-link"></span></a>Marionette.normalizeMethods</h2><p>Receives a hash of event names and functions and/or function names, and returns the
+same hash with the function names replaced with the function references themselves.</p>
+<p>This function is attached to the <code>Marionette.View</code> prototype by default. To use it from non-View classes you&#39;ll need to attach it yourself.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> View = Marionette.ItemView.extend({
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">this</span>.someFn = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{};
+    <span class="hljs-keyword">this</span>.someOtherFn = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{};
+    <span class="hljs-keyword">var</span> hash = {
+      eventOne: <span class="hljs-string">"someFn"</span>, <span class="hljs-comment">// This will become a reference to `this.someFn`</span>
+      eventTwo: <span class="hljs-keyword">this</span>.someOtherFn
+    };
+    <span class="hljs-keyword">this</span>.normalizedHash = <span class="hljs-keyword">this</span>.normalizeMethods(hash);
+  }
+
+});
+</code></pre>
+<h2><a name="marionette-normalizeuikeys" class="anchor" href="#marionette-normalizeuikeys"><span class="header-link"></span></a>Marionette.normalizeUIKeys</h2><p>This method allows you to use the <code>@ui.</code> syntax within a given key for triggers and events hashes. It
+swaps the <code>@ui.</code> reference with the associated selector.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> hash = {
+  <span class="hljs-string">'click @ui.list'</span>: <span class="hljs-string">'myCb'</span>
+};
+
+<span class="hljs-keyword">var</span> ui = {
+  <span class="hljs-string">'list'</span>: <span class="hljs-string">'ul'</span>
+};
+
+<span class="hljs-comment">// This sets 'click @ui.list' to be 'click ul' in the newHash object</span>
+<span class="hljs-keyword">var</span> newHash = Marionette.normalizeUIKeys(hash, ui);
+</code></pre>
+<h2><a name="marionette-actascollection" class="anchor" href="#marionette-actascollection"><span class="header-link"></span></a>Marionette.actAsCollection</h2><p>Utility function for mixing in underscore collection behavior to an object.</p>
+<p>It works by taking an object and a property field, in this example &#39;list&#39;,
+and appending collection functions to the object so that it can
+delegate collection calls to its list.</p>
+<h4><a name="object-literal" class="anchor" href="#object-literal"><span class="header-link"></span></a>Object Literal</h4><pre><code class="lang-js"><span class="hljs-keyword">var</span> obj = {
+  list: [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+}
+
+Marionette.actAsCollection(obj, <span class="hljs-string">'list'</span>);
+
+<span class="hljs-keyword">var</span> double = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(v)</span></span>{ <span class="hljs-keyword">return</span> v*<span class="hljs-number">2</span>};
+<span class="hljs-built_in">console</span>.log(obj.map(double)); <span class="hljs-comment">// [2, 4, 6]</span>
+</code></pre>
+<h4><a name="function-prototype" class="anchor" href="#function-prototype"><span class="header-link"></span></a>Function Prototype</h4><pre><code class="lang-js"><span class="hljs-keyword">var</span> Func = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(list)</span> </span>{
+  <span class="hljs-keyword">this</span>.list = list;
+};
+
+Marionette.actAsCollection(Func.prototype, <span class="hljs-string">'list'</span>);
+<span class="hljs-keyword">var</span> func = <span class="hljs-keyword">new</span> Func([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]);
+
+
+<span class="hljs-keyword">var</span> double = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(v)</span></span>{ <span class="hljs-keyword">return</span> v*<span class="hljs-number">2</span>};
+<span class="hljs-built_in">console</span>.log(func.map(double)); <span class="hljs-comment">// [2, 4, 6]</span>
+</code></pre>
+<p>The first parameter is the object that will delegate underscore collection methods.</p>
+<p>The second parameter is the object field that will hold the list.</p>
+
+      </div>
+    </div>
+  </body>
+</html>

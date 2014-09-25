@@ -1,0 +1,521 @@
+<html>
+  <head>
+    <title>marionette.regionmanager - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select>
+          
+            <option value="v0.1.0">v0.1.0</option>
+          
+            <option value="v0.10.0">v0.10.0</option>
+          
+            <option value="v0.10.1">v0.10.1</option>
+          
+            <option value="v0.10.2">v0.10.2</option>
+          
+            <option value="v0.2.0">v0.2.0</option>
+          
+            <option value="v0.2.1">v0.2.1</option>
+          
+            <option value="v0.2.2">v0.2.2</option>
+          
+            <option value="v0.2.3">v0.2.3</option>
+          
+            <option value="v0.2.4">v0.2.4</option>
+          
+            <option value="v0.2.5">v0.2.5</option>
+          
+            <option value="v0.2.6">v0.2.6</option>
+          
+            <option value="v0.3.0">v0.3.0</option>
+          
+            <option value="v0.3.1">v0.3.1</option>
+          
+            <option value="v0.4.0">v0.4.0</option>
+          
+            <option value="v0.4.1">v0.4.1</option>
+          
+            <option value="v0.4.1a">v0.4.1a</option>
+          
+            <option value="v0.4.2">v0.4.2</option>
+          
+            <option value="v0.4.3">v0.4.3</option>
+          
+            <option value="v0.4.4">v0.4.4</option>
+          
+            <option value="v0.4.5">v0.4.5</option>
+          
+            <option value="v0.4.6">v0.4.6</option>
+          
+            <option value="v0.4.7">v0.4.7</option>
+          
+            <option value="v0.4.8">v0.4.8</option>
+          
+            <option value="v0.5.0">v0.5.0</option>
+          
+            <option value="v0.5.1">v0.5.1</option>
+          
+            <option value="v0.5.2">v0.5.2</option>
+          
+            <option value="v0.6.0">v0.6.0</option>
+          
+            <option value="v0.6.1">v0.6.1</option>
+          
+            <option value="v0.6.2">v0.6.2</option>
+          
+            <option value="v0.6.3">v0.6.3</option>
+          
+            <option value="v0.7.0">v0.7.0</option>
+          
+            <option value="v0.7.1">v0.7.1</option>
+          
+            <option value="v0.7.2">v0.7.2</option>
+          
+            <option value="v0.7.3">v0.7.3</option>
+          
+            <option value="v0.7.4">v0.7.4</option>
+          
+            <option value="v0.7.5">v0.7.5</option>
+          
+            <option value="v0.7.6">v0.7.6</option>
+          
+            <option value="v0.8.0">v0.8.0</option>
+          
+            <option value="v0.8.1">v0.8.1</option>
+          
+            <option value="v0.8.2">v0.8.2</option>
+          
+            <option value="v0.8.3">v0.8.3</option>
+          
+            <option value="v0.8.4">v0.8.4</option>
+          
+            <option value="v0.9.0">v0.9.0</option>
+          
+            <option value="v0.9.1">v0.9.1</option>
+          
+            <option value="v0.9.10">v0.9.10</option>
+          
+            <option value="v0.9.11">v0.9.11</option>
+          
+            <option value="v0.9.12">v0.9.12</option>
+          
+            <option value="v0.9.13">v0.9.13</option>
+          
+            <option value="v0.9.2">v0.9.2</option>
+          
+            <option value="v0.9.3">v0.9.3</option>
+          
+            <option value="v0.9.4">v0.9.4</option>
+          
+            <option value="v0.9.5">v0.9.5</option>
+          
+            <option value="v0.9.6">v0.9.6</option>
+          
+            <option value="v0.9.7">v0.9.7</option>
+          
+            <option value="v0.9.8">v0.9.8</option>
+          
+            <option value="v0.9.9">v0.9.9</option>
+          
+            <option value="v1.0.0">v1.0.0</option>
+          
+            <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+          
+            <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+          
+            <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+          
+            <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+          
+            <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+          
+            <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+          
+            <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+          
+            <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+          
+            <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+          
+            <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+          
+            <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+          
+            <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+          
+            <option value="v1.0.1">v1.0.1</option>
+          
+            <option value="v1.0.2">v1.0.2</option>
+          
+            <option value="v1.0.3">v1.0.3</option>
+          
+            <option value="v1.0.4">v1.0.4</option>
+          
+            <option value="v1.1.0">v1.1.0</option>
+          
+            <option value="v1.2.0">v1.2.0</option>
+          
+            <option value="v1.2.1">v1.2.1</option>
+          
+            <option value="v1.2.2">v1.2.2</option>
+          
+            <option value="v1.2.3">v1.2.3</option>
+          
+            <option value="v1.3.0">v1.3.0</option>
+          
+            <option value="v1.4.0">v1.4.0</option>
+          
+            <option value="v1.4.0beta">v1.4.0beta</option>
+          
+            <option value="v1.4.1">v1.4.1</option>
+          
+            <option value="v1.5.0">v1.5.0</option>
+          
+            <option value="v1.5.1">v1.5.1</option>
+          
+            <option value="v1.6.0">v1.6.0</option>
+          
+            <option value="v1.6.1">v1.6.1</option>
+          
+            <option value="v1.6.2">v1.6.2</option>
+          
+            <option value="v1.6.3">v1.6.3</option>
+          
+            <option value="v1.6.4">v1.6.4</option>
+          
+            <option value="v1.7">v1.7</option>
+          
+            <option value="v1.7.1">v1.7.1</option>
+          
+            <option value="v1.7.2">v1.7.2</option>
+          
+            <option value="v1.7.3">v1.7.3</option>
+          
+            <option value="v1.7.4">v1.7.4</option>
+          
+            <option value="v1.8.0">v1.8.0</option>
+          
+            <option value="v1.8.1">v1.8.1</option>
+          
+            <option value="v1.8.2">v1.8.2</option>
+          
+            <option value="v1.8.3">v1.8.3</option>
+          
+            <option value="v1.8.4">v1.8.4</option>
+          
+            <option value="v1.8.5">v1.8.5</option>
+          
+            <option value="v1.8.6">v1.8.6</option>
+          
+            <option value="v1.8.7">v1.8.7</option>
+          
+            <option value="v1.8.8">v1.8.8</option>
+          
+            <option value="v2.0.0">v2.0.0</option>
+          
+            <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+          
+            <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+          
+            <option value="v2.0.1">v2.0.1</option>
+          
+            <option value="v2.0.2">v2.0.2</option>
+          
+            <option value="v2.0.3">v2.0.3</option>
+          
+            <option value="v2.1.0">v2.1.0</option>
+          
+            <option value="v2.1.0-pre">v2.1.0-pre</option>
+          
+            <option value="v2.2.0">v2.2.0</option>
+          
+            <option value="v2.2.0-pre">v2.2.0-pre</option>
+          
+            <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+          
+            <option value="v2.2.1">v2.2.1</option>
+          
+        </select>
+        <nav>
+          
+            <a href="marionette.application.html">marionette.application</a>
+          
+            <a href="marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="marionette.commands.html">marionette.commands</a>
+          
+            <a href="marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="marionette.controller.html">marionette.controller</a>
+          
+            <a href="marionette.functions.html">marionette.functions</a>
+          
+            <a href="marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="marionette.layout.html">marionette.layout</a>
+          
+            <a href="marionette.region.html">marionette.region</a>
+          
+            <a href="marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <pre>{
+  &quot;tag&quot;: &quot;v1.0.4&quot;,
+  &quot;basename&quot;: &quot;marionette.regionmanager&quot;,
+  &quot;filenane&quot;: &quot;marionette.regionmanager.md&quot;,
+  &quot;pathname&quot;: &quot;/Users/sam/Desktop/repos/marionettejs.com/.grunt/compileDocs/1411613555901/v1.0.4&quot;,
+  &quot;contents&quot;: &quot;&lt;h1&gt;&lt;a name=\&quot;marionette-regionmanager\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-regionmanager\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.RegionManager&lt;/h1&gt;&lt;p&gt;Region managers provide a consistent way to manage \na number of Marionette.Region objects within an\napplication. The RegionManager is intended to be\nused by other objects, to facilitate the addition,\nstorage, retrieval, and removal of regions from\nthat object. For examples of how it can be used,\nsee the Marionette.Application and Marionette.Layout\nobjects.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;documentation-index\&quot; class=\&quot;anchor\&quot; href=\&quot;#documentation-index\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Documentation Index&lt;/h2&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#Basic Use\&quot;&gt;Basic Use&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-addregion\&quot;&gt;RegionManager.addRegion&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-addregions\&quot;&gt;RegionManager.addRegions&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#addregoins-default-options\&quot;&gt;addRegions default options&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-get\&quot;&gt;RegionManager.get&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-removeregion\&quot;&gt;RegionManager.removeRegion&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-removeregions\&quot;&gt;RegionManager.removeRegions&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-closeregions\&quot;&gt;RegionManager.closeRegions&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-close\&quot;&gt;RegionManager.close&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-events\&quot;&gt;RegionManager Events&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#region-add-event\&quot;&gt;region:add event&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#region-remove-event\&quot;&gt;region:remove event&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#regionmanager-iterators\&quot;&gt;RegionManager Iterators&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;a name=\&quot;basic-use\&quot; class=\&quot;anchor\&quot; href=\&quot;#basic-use\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Basic Use&lt;/h2&gt;&lt;p&gt;RegionManagers can be instantiated directly, and can\nhave regions added and removed via several methods:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; region = rm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; regions = rm.addRegions({\n  baz: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#baz\&quot;&lt;/span&gt;,\n  quux: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;ul.quux\&quot;&lt;/span&gt;\n});\n\nregions.baz.show(myView);\n\nrm.removeRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-addregion\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-addregion\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.addRegion&lt;/h2&gt;&lt;p&gt;Regions can be added individually using the &lt;code&gt;addRegion&lt;/code&gt;\nmethod. This method takes two parameters: the region name\nand the region definition.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; region = rm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;In this example, a region named &amp;quot;foo&amp;quot; will be added\nto the RegionManager instance. It is defined as a\njQuery selector that will search for the &lt;code&gt;#bar&lt;/code&gt;\nelement in the DOM. &lt;/p&gt;\n&lt;p&gt;There are a lot of other ways to define a region,\nincluding object literals with various options, and\ninstances of Region objects. For more information \non this, see the Region documentation.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-addregions\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-addregions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.addRegions&lt;/h2&gt;&lt;p&gt;Regions can also be added en-masse through the use\nof the &lt;code&gt;addRegions&lt;/code&gt; method. To use this method,\npass an object literal that contains the names of\nthe regions as keys, and the region definitions as\nvalues.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; regions = rm.addRegions({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;,\n  baz: {\n    selector: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#quux\&quot;&lt;/span&gt;,\n    regionType: MyRegionType\n  }\n});\n\nregions.foo; &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; the \&quot;foo\&quot; region instance&lt;/span&gt;\nregions.bar; &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; the \&quot;bar\&quot; region instance&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This method returns an object literal that contains\nall of the named region instances. &lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;addregions-default-options\&quot; class=\&quot;anchor\&quot; href=\&quot;#addregions-default-options\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;addRegions default options&lt;/h3&gt;&lt;p&gt;When adding multiple regions it may be useful to\nprovide a set of defaults that get applied to all \nof the regions being added. This can be done through\nthe use of a &lt;code&gt;defaults&lt;/code&gt; parameter. Specify this\nparameter as an object literal with &lt;code&gt;key: value&lt;/code&gt;\npairs that will be applied to every region added.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; defaults = {\n  regionType: MyRegionType\n};\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; regions = {\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;,\n  baz: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#quux\&quot;&lt;/span&gt;\n};\n\nrm.addRegions(regions, defaults);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;In this example, all regions will be added as\ninstances of &lt;code&gt;MyRegionType&lt;/code&gt;.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-get\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-get\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.get&lt;/h2&gt;&lt;p&gt;A region instance can be retrieved from the \nRegionManager instance using the &lt;code&gt;get&lt;/code&gt; method and\npassing in the name of the region.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\nrm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; region = rm.get(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-removeregion\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-removeregion\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.removeRegion&lt;/h2&gt;&lt;p&gt;A region can be removed by calling the &lt;code&gt;removeRegion&lt;/code&gt;\nmethod and passing in the name of the region.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\nrm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n\nrm.removeRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;A region will have its &lt;code&gt;close&lt;/code&gt; method called before\nit is removed from the RegionManager instance. &lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-removeregions\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-removeregions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.removeRegions&lt;/h2&gt;&lt;p&gt;You can quickly remove all regions from the\nRegionManager instance by calling the &lt;code&gt;removeRegions&lt;/code&gt;\nmethod.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\nrm.addRegions({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#foo\&quot;&lt;/span&gt;,\n  bar: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;,\n  baz: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#baz\&quot;&lt;/span&gt;\n});\n\nrm.removeRegions();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This will close all regions, and remove them.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-closeregions\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-closeregions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.closeRegions&lt;/h2&gt;&lt;p&gt;You can quickly close all regions from the RegionManager\ninstance by calling the &lt;code&gt;closeRegions&lt;/code&gt; method.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\nrm.addRegions({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#foo\&quot;&lt;/span&gt;,\n  bar: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;,\n  baz: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#baz\&quot;&lt;/span&gt;\n});\n\nrm.closeRegions();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This will close the regions without removing them\nfrom the RegionManager instance.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-close\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-close\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager.close&lt;/h2&gt;&lt;p&gt;A RegionManager instance can be closed entirely by\ncalling the &lt;code&gt;close&lt;/code&gt; method. This will both close\nand remove all regions from the RegionManager instance.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\nrm.addRegions({\n  foo: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#foo\&quot;&lt;/span&gt;,\n  bar: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;,\n  baz: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#baz\&quot;&lt;/span&gt;\n});\n\nrm.close();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-events\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-events\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager Events&lt;/h2&gt;&lt;p&gt;A RegionManager will trigger various events as it\nis being used.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;region-add-event\&quot; class=\&quot;anchor\&quot; href=\&quot;#region-add-event\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;region:add event&lt;/h3&gt;&lt;p&gt;The RegionManager will trigger a &amp;quot;region:add&amp;quot;\nevent when a region is added to the manager. This\nallows you to use the region instance immediately,\nor attach the region to an object that needs a\nreference to it:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\nrm.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;region:add\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(name, region)&lt;/span&gt;&lt;/span&gt;{\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// add the region instance to an object&lt;/span&gt;\n  myObject[name] = region;\n\n});\n\nrm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;region-remove-event\&quot; class=\&quot;anchor\&quot; href=\&quot;#region-remove-event\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;region:remove event&lt;/h3&gt;&lt;p&gt;The RegionManager will trigger a &amp;quot;region:remove&amp;quot;\nevent when a region is removed from the manager. \nThis allows you to use the region instance one last\ntime, or remove the region from an object that has a\nreference to it:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\nrm.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;region:remove\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(name, region)&lt;/span&gt;&lt;/span&gt;{\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// add the region instance to an object&lt;/span&gt;\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;delete&lt;/span&gt; myObject[name];\n\n});\n\nrm.addRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#bar\&quot;&lt;/span&gt;);\n\nrm.removeRegion(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;foo\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;regionmanager-iterators\&quot; class=\&quot;anchor\&quot; href=\&quot;#regionmanager-iterators\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;RegionManager Iterators&lt;/h2&gt;&lt;p&gt;The RegionManager has several methods for iteration\nattached to it, from underscore.js. This works in the\nsame way as the Backbone.Collection methods that have\nbeen imported. For example, you can easily iterate over\nthe entire collection of region instances by calling\nthe &lt;code&gt;each&lt;/code&gt; method:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; rm = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Marionette.RegionManager();\n\nrm.each(&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(region)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff w/ the region instance here&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The list of underscore methods includes:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;forEach&lt;/li&gt;\n&lt;li&gt;each&lt;/li&gt;\n&lt;li&gt;map&lt;/li&gt;\n&lt;li&gt;find&lt;/li&gt;\n&lt;li&gt;detect&lt;/li&gt;\n&lt;li&gt;filter&lt;/li&gt;\n&lt;li&gt;select&lt;/li&gt;\n&lt;li&gt;reject&lt;/li&gt;\n&lt;li&gt;every&lt;/li&gt;\n&lt;li&gt;all&lt;/li&gt;\n&lt;li&gt;some&lt;/li&gt;\n&lt;li&gt;any&lt;/li&gt;\n&lt;li&gt;include&lt;/li&gt;\n&lt;li&gt;contains&lt;/li&gt;\n&lt;li&gt;invoke&lt;/li&gt;\n&lt;li&gt;toArray&lt;/li&gt;\n&lt;li&gt;first&lt;/li&gt;\n&lt;li&gt;initial&lt;/li&gt;\n&lt;li&gt;rest&lt;/li&gt;\n&lt;li&gt;last&lt;/li&gt;\n&lt;li&gt;without&lt;/li&gt;\n&lt;li&gt;isEmpty&lt;/li&gt;\n&lt;li&gt;pluck&lt;/li&gt;\n&lt;/ul&gt;\n&quot;
+}</pre>
+        <h1><a name="marionette-regionmanager" class="anchor" href="#marionette-regionmanager"><span class="header-link"></span></a>Marionette.RegionManager</h1><p>Region managers provide a consistent way to manage 
+a number of Marionette.Region objects within an
+application. The RegionManager is intended to be
+used by other objects, to facilitate the addition,
+storage, retrieval, and removal of regions from
+that object. For examples of how it can be used,
+see the Marionette.Application and Marionette.Layout
+objects.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#Basic Use">Basic Use</a></li>
+<li><a href="#regionmanager-addregion">RegionManager.addRegion</a></li>
+<li><a href="#regionmanager-addregions">RegionManager.addRegions</a><ul>
+<li><a href="#addregoins-default-options">addRegions default options</a></li>
+</ul>
+</li>
+<li><a href="#regionmanager-get">RegionManager.get</a></li>
+<li><a href="#regionmanager-removeregion">RegionManager.removeRegion</a></li>
+<li><a href="#regionmanager-removeregions">RegionManager.removeRegions</a></li>
+<li><a href="#regionmanager-closeregions">RegionManager.closeRegions</a></li>
+<li><a href="#regionmanager-close">RegionManager.close</a></li>
+<li><a href="#regionmanager-events">RegionManager Events</a><ul>
+<li><a href="#region-add-event">region:add event</a></li>
+<li><a href="#region-remove-event">region:remove event</a></li>
+</ul>
+</li>
+<li><a href="#regionmanager-iterators">RegionManager Iterators</a></li>
+</ul>
+<h2><a name="basic-use" class="anchor" href="#basic-use"><span class="header-link"></span></a>Basic Use</h2><p>RegionManagers can be instantiated directly, and can
+have regions added and removed via several methods:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+<span class="hljs-keyword">var</span> region = rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+
+<span class="hljs-keyword">var</span> regions = rm.addRegions({
+  baz: <span class="hljs-string">"#baz"</span>,
+  quux: <span class="hljs-string">"ul.quux"</span>
+});
+
+regions.baz.show(myView);
+
+rm.removeRegion(<span class="hljs-string">"foo"</span>);
+</code></pre>
+<h2><a name="regionmanager-addregion" class="anchor" href="#regionmanager-addregion"><span class="header-link"></span></a>RegionManager.addRegion</h2><p>Regions can be added individually using the <code>addRegion</code>
+method. This method takes two parameters: the region name
+and the region definition.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+<span class="hljs-keyword">var</span> region = rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+</code></pre>
+<p>In this example, a region named &quot;foo&quot; will be added
+to the RegionManager instance. It is defined as a
+jQuery selector that will search for the <code>#bar</code>
+element in the DOM. </p>
+<p>There are a lot of other ways to define a region,
+including object literals with various options, and
+instances of Region objects. For more information 
+on this, see the Region documentation.</p>
+<h2><a name="regionmanager-addregions" class="anchor" href="#regionmanager-addregions"><span class="header-link"></span></a>RegionManager.addRegions</h2><p>Regions can also be added en-masse through the use
+of the <code>addRegions</code> method. To use this method,
+pass an object literal that contains the names of
+the regions as keys, and the region definitions as
+values.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+<span class="hljs-keyword">var</span> regions = rm.addRegions({
+  foo: <span class="hljs-string">"#bar"</span>,
+  baz: {
+    selector: <span class="hljs-string">"#quux"</span>,
+    regionType: MyRegionType
+  }
+});
+
+regions.foo; <span class="hljs-comment">//=&gt; the "foo" region instance</span>
+regions.bar; <span class="hljs-comment">//=&gt; the "bar" region instance</span>
+</code></pre>
+<p>This method returns an object literal that contains
+all of the named region instances. </p>
+<h3><a name="addregions-default-options" class="anchor" href="#addregions-default-options"><span class="header-link"></span></a>addRegions default options</h3><p>When adding multiple regions it may be useful to
+provide a set of defaults that get applied to all 
+of the regions being added. This can be done through
+the use of a <code>defaults</code> parameter. Specify this
+parameter as an object literal with <code>key: value</code>
+pairs that will be applied to every region added.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+<span class="hljs-keyword">var</span> defaults = {
+  regionType: MyRegionType
+};
+
+<span class="hljs-keyword">var</span> regions = {
+  foo: <span class="hljs-string">"#bar"</span>,
+  baz: <span class="hljs-string">"#quux"</span>
+};
+
+rm.addRegions(regions, defaults);
+</code></pre>
+<p>In this example, all regions will be added as
+instances of <code>MyRegionType</code>.</p>
+<h2><a name="regionmanager-get" class="anchor" href="#regionmanager-get"><span class="header-link"></span></a>RegionManager.get</h2><p>A region instance can be retrieved from the 
+RegionManager instance using the <code>get</code> method and
+passing in the name of the region.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+
+<span class="hljs-keyword">var</span> region = rm.get(<span class="hljs-string">"foo"</span>);
+</code></pre>
+<h2><a name="regionmanager-removeregion" class="anchor" href="#regionmanager-removeregion"><span class="header-link"></span></a>RegionManager.removeRegion</h2><p>A region can be removed by calling the <code>removeRegion</code>
+method and passing in the name of the region.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+
+rm.removeRegion(<span class="hljs-string">"foo"</span>);
+</code></pre>
+<p>A region will have its <code>close</code> method called before
+it is removed from the RegionManager instance. </p>
+<h2><a name="regionmanager-removeregions" class="anchor" href="#regionmanager-removeregions"><span class="header-link"></span></a>RegionManager.removeRegions</h2><p>You can quickly remove all regions from the
+RegionManager instance by calling the <code>removeRegions</code>
+method.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+rm.addRegions({
+  foo: <span class="hljs-string">"#foo"</span>,
+  bar: <span class="hljs-string">"#bar"</span>,
+  baz: <span class="hljs-string">"#baz"</span>
+});
+
+rm.removeRegions();
+</code></pre>
+<p>This will close all regions, and remove them.</p>
+<h2><a name="regionmanager-closeregions" class="anchor" href="#regionmanager-closeregions"><span class="header-link"></span></a>RegionManager.closeRegions</h2><p>You can quickly close all regions from the RegionManager
+instance by calling the <code>closeRegions</code> method.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+rm.addRegions({
+  foo: <span class="hljs-string">"#foo"</span>,
+  bar: <span class="hljs-string">"#bar"</span>,
+  baz: <span class="hljs-string">"#baz"</span>
+});
+
+rm.closeRegions();
+</code></pre>
+<p>This will close the regions without removing them
+from the RegionManager instance.</p>
+<h2><a name="regionmanager-close" class="anchor" href="#regionmanager-close"><span class="header-link"></span></a>RegionManager.close</h2><p>A RegionManager instance can be closed entirely by
+calling the <code>close</code> method. This will both close
+and remove all regions from the RegionManager instance.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+rm.addRegions({
+  foo: <span class="hljs-string">"#foo"</span>,
+  bar: <span class="hljs-string">"#bar"</span>,
+  baz: <span class="hljs-string">"#baz"</span>
+});
+
+rm.close();
+</code></pre>
+<h2><a name="regionmanager-events" class="anchor" href="#regionmanager-events"><span class="header-link"></span></a>RegionManager Events</h2><p>A RegionManager will trigger various events as it
+is being used.</p>
+<h3><a name="region-add-event" class="anchor" href="#region-add-event"><span class="header-link"></span></a>region:add event</h3><p>The RegionManager will trigger a &quot;region:add&quot;
+event when a region is added to the manager. This
+allows you to use the region instance immediately,
+or attach the region to an object that needs a
+reference to it:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+rm.on(<span class="hljs-string">"region:add"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(name, region)</span></span>{
+
+  <span class="hljs-comment">// add the region instance to an object</span>
+  myObject[name] = region;
+
+});
+
+rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+</code></pre>
+<h3><a name="region-remove-event" class="anchor" href="#region-remove-event"><span class="header-link"></span></a>region:remove event</h3><p>The RegionManager will trigger a &quot;region:remove&quot;
+event when a region is removed from the manager. 
+This allows you to use the region instance one last
+time, or remove the region from an object that has a
+reference to it:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+rm.on(<span class="hljs-string">"region:remove"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(name, region)</span></span>{
+
+  <span class="hljs-comment">// add the region instance to an object</span>
+  <span class="hljs-keyword">delete</span> myObject[name];
+
+});
+
+rm.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#bar"</span>);
+
+rm.removeRegion(<span class="hljs-string">"foo"</span>);
+</code></pre>
+<h2><a name="regionmanager-iterators" class="anchor" href="#regionmanager-iterators"><span class="header-link"></span></a>RegionManager Iterators</h2><p>The RegionManager has several methods for iteration
+attached to it, from underscore.js. This works in the
+same way as the Backbone.Collection methods that have
+been imported. For example, you can easily iterate over
+the entire collection of region instances by calling
+the <code>each</code> method:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> rm = <span class="hljs-keyword">new</span> Marionette.RegionManager();
+
+rm.each(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(region)</span></span>{
+  <span class="hljs-comment">// do stuff w/ the region instance here</span>
+});
+</code></pre>
+<p>The list of underscore methods includes:</p>
+<ul>
+<li>forEach</li>
+<li>each</li>
+<li>map</li>
+<li>find</li>
+<li>detect</li>
+<li>filter</li>
+<li>select</li>
+<li>reject</li>
+<li>every</li>
+<li>all</li>
+<li>some</li>
+<li>any</li>
+<li>include</li>
+<li>contains</li>
+<li>invoke</li>
+<li>toArray</li>
+<li>first</li>
+<li>initial</li>
+<li>rest</li>
+<li>last</li>
+<li>without</li>
+<li>isEmpty</li>
+<li>pluck</li>
+</ul>
+
+      </div>
+    </div>
+  </body>
+</html>

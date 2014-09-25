@@ -1,0 +1,663 @@
+<html>
+  <head>
+    <title>marionette.application.module - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select>
+          
+            <option value="v0.1.0">v0.1.0</option>
+          
+            <option value="v0.10.0">v0.10.0</option>
+          
+            <option value="v0.10.1">v0.10.1</option>
+          
+            <option value="v0.10.2">v0.10.2</option>
+          
+            <option value="v0.2.0">v0.2.0</option>
+          
+            <option value="v0.2.1">v0.2.1</option>
+          
+            <option value="v0.2.2">v0.2.2</option>
+          
+            <option value="v0.2.3">v0.2.3</option>
+          
+            <option value="v0.2.4">v0.2.4</option>
+          
+            <option value="v0.2.5">v0.2.5</option>
+          
+            <option value="v0.2.6">v0.2.6</option>
+          
+            <option value="v0.3.0">v0.3.0</option>
+          
+            <option value="v0.3.1">v0.3.1</option>
+          
+            <option value="v0.4.0">v0.4.0</option>
+          
+            <option value="v0.4.1">v0.4.1</option>
+          
+            <option value="v0.4.1a">v0.4.1a</option>
+          
+            <option value="v0.4.2">v0.4.2</option>
+          
+            <option value="v0.4.3">v0.4.3</option>
+          
+            <option value="v0.4.4">v0.4.4</option>
+          
+            <option value="v0.4.5">v0.4.5</option>
+          
+            <option value="v0.4.6">v0.4.6</option>
+          
+            <option value="v0.4.7">v0.4.7</option>
+          
+            <option value="v0.4.8">v0.4.8</option>
+          
+            <option value="v0.5.0">v0.5.0</option>
+          
+            <option value="v0.5.1">v0.5.1</option>
+          
+            <option value="v0.5.2">v0.5.2</option>
+          
+            <option value="v0.6.0">v0.6.0</option>
+          
+            <option value="v0.6.1">v0.6.1</option>
+          
+            <option value="v0.6.2">v0.6.2</option>
+          
+            <option value="v0.6.3">v0.6.3</option>
+          
+            <option value="v0.7.0">v0.7.0</option>
+          
+            <option value="v0.7.1">v0.7.1</option>
+          
+            <option value="v0.7.2">v0.7.2</option>
+          
+            <option value="v0.7.3">v0.7.3</option>
+          
+            <option value="v0.7.4">v0.7.4</option>
+          
+            <option value="v0.7.5">v0.7.5</option>
+          
+            <option value="v0.7.6">v0.7.6</option>
+          
+            <option value="v0.8.0">v0.8.0</option>
+          
+            <option value="v0.8.1">v0.8.1</option>
+          
+            <option value="v0.8.2">v0.8.2</option>
+          
+            <option value="v0.8.3">v0.8.3</option>
+          
+            <option value="v0.8.4">v0.8.4</option>
+          
+            <option value="v0.9.0">v0.9.0</option>
+          
+            <option value="v0.9.1">v0.9.1</option>
+          
+            <option value="v0.9.10">v0.9.10</option>
+          
+            <option value="v0.9.11">v0.9.11</option>
+          
+            <option value="v0.9.12">v0.9.12</option>
+          
+            <option value="v0.9.13">v0.9.13</option>
+          
+            <option value="v0.9.2">v0.9.2</option>
+          
+            <option value="v0.9.3">v0.9.3</option>
+          
+            <option value="v0.9.4">v0.9.4</option>
+          
+            <option value="v0.9.5">v0.9.5</option>
+          
+            <option value="v0.9.6">v0.9.6</option>
+          
+            <option value="v0.9.7">v0.9.7</option>
+          
+            <option value="v0.9.8">v0.9.8</option>
+          
+            <option value="v0.9.9">v0.9.9</option>
+          
+            <option value="v1.0.0">v1.0.0</option>
+          
+            <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+          
+            <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+          
+            <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+          
+            <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+          
+            <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+          
+            <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+          
+            <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+          
+            <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+          
+            <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+          
+            <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+          
+            <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+          
+            <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+          
+            <option value="v1.0.1">v1.0.1</option>
+          
+            <option value="v1.0.2">v1.0.2</option>
+          
+            <option value="v1.0.3">v1.0.3</option>
+          
+            <option value="v1.0.4">v1.0.4</option>
+          
+            <option value="v1.1.0">v1.1.0</option>
+          
+            <option value="v1.2.0">v1.2.0</option>
+          
+            <option value="v1.2.1">v1.2.1</option>
+          
+            <option value="v1.2.2">v1.2.2</option>
+          
+            <option value="v1.2.3">v1.2.3</option>
+          
+            <option value="v1.3.0">v1.3.0</option>
+          
+            <option value="v1.4.0">v1.4.0</option>
+          
+            <option value="v1.4.0beta">v1.4.0beta</option>
+          
+            <option value="v1.4.1">v1.4.1</option>
+          
+            <option value="v1.5.0">v1.5.0</option>
+          
+            <option value="v1.5.1">v1.5.1</option>
+          
+            <option value="v1.6.0">v1.6.0</option>
+          
+            <option value="v1.6.1">v1.6.1</option>
+          
+            <option value="v1.6.2">v1.6.2</option>
+          
+            <option value="v1.6.3">v1.6.3</option>
+          
+            <option value="v1.6.4">v1.6.4</option>
+          
+            <option value="v1.7">v1.7</option>
+          
+            <option value="v1.7.1">v1.7.1</option>
+          
+            <option value="v1.7.2">v1.7.2</option>
+          
+            <option value="v1.7.3">v1.7.3</option>
+          
+            <option value="v1.7.4">v1.7.4</option>
+          
+            <option value="v1.8.0">v1.8.0</option>
+          
+            <option value="v1.8.1">v1.8.1</option>
+          
+            <option value="v1.8.2">v1.8.2</option>
+          
+            <option value="v1.8.3">v1.8.3</option>
+          
+            <option value="v1.8.4">v1.8.4</option>
+          
+            <option value="v1.8.5">v1.8.5</option>
+          
+            <option value="v1.8.6">v1.8.6</option>
+          
+            <option value="v1.8.7">v1.8.7</option>
+          
+            <option value="v1.8.8">v1.8.8</option>
+          
+            <option value="v2.0.0">v2.0.0</option>
+          
+            <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+          
+            <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+          
+            <option value="v2.0.1">v2.0.1</option>
+          
+            <option value="v2.0.2">v2.0.2</option>
+          
+            <option value="v2.0.3">v2.0.3</option>
+          
+            <option value="v2.1.0">v2.1.0</option>
+          
+            <option value="v2.1.0-pre">v2.1.0-pre</option>
+          
+            <option value="v2.2.0">v2.2.0</option>
+          
+            <option value="v2.2.0-pre">v2.2.0-pre</option>
+          
+            <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+          
+            <option value="v2.2.1">v2.2.1</option>
+          
+        </select>
+        <nav>
+          
+            <a href="marionette.application.html">marionette.application</a>
+          
+            <a href="marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="marionette.controller.html">marionette.controller</a>
+          
+            <a href="marionette.functions.html">marionette.functions</a>
+          
+            <a href="marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="marionette.layoutview.html">marionette.layoutview</a>
+          
+            <a href="marionette.region.html">marionette.region</a>
+          
+            <a href="marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <pre>{
+  &quot;tag&quot;: &quot;v2.0.1&quot;,
+  &quot;basename&quot;: &quot;marionette.application.module&quot;,
+  &quot;filenane&quot;: &quot;marionette.application.module.md&quot;,
+  &quot;pathname&quot;: &quot;/Users/sam/Desktop/repos/marionettejs.com/.grunt/compileDocs/1411613555901/v2.0.1&quot;,
+  &quot;contents&quot;: &quot;&lt;h1&gt;&lt;a name=\&quot;marionette-application-module\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-application-module\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.Application.module&lt;/h1&gt;&lt;p&gt;Marionette Modules allow you to create modular encapsulated logic.\nThey can be used to split apart large applications into multiple files,\nand to build individual components of your app.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;documentation-index\&quot; class=\&quot;anchor\&quot; href=\&quot;#documentation-index\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Documentation Index&lt;/h2&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#basic-usage\&quot;&gt;Basic Usage&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#module-definitions\&quot;&gt;Module Definitions&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#callback-function-definition\&quot;&gt;Callback Function Definition&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#object-literal-definition\&quot;&gt;Object Literal Definition&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#module-classes\&quot;&gt;Module Classes&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#defining-sub-modules\&quot;&gt;Defining Sub-Modules&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#starting-and-stopping-modules\&quot;&gt;Starting and Stopping Modules&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#starting-modules\&quot;&gt;Starting Modules&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#module-initializers\&quot;&gt;Module Initializers&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#start-events\&quot;&gt;Start Events&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#preventing-auto-start-of-modules\&quot;&gt;Preventing Auto-Start Of Modules&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#starting-sub-modules-with-parent\&quot;&gt;Starting Sub-Modules With Parent&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#stopping-modules\&quot;&gt;Stopping Modules&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#module-finalizers\&quot;&gt;Module Finalizers&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#stop-events\&quot;&gt;Stop Events&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;a name=\&quot;basic-usage\&quot; class=\&quot;anchor\&quot; href=\&quot;#basic-usage\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Basic Usage&lt;/h2&gt;&lt;p&gt;A module is defined directly from an Application object. To create a module all\nyou need to do is give it a name.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; MyApp = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Backbone.Marionette.Application();\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Creates a new module named \&quot;MyModule\&quot;&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myModule = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;);\n\nMyApp.MyModule; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; a new Marionette.Module object&lt;/span&gt;\n\nmyModule === MyApp.MyModule; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; true&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Modules cannot be overwritten once they are created. Subsequent\ncalls to &lt;code&gt;module&lt;/code&gt; with the same name argument will not create\na new module, but instead return the already-created instance.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; MyApp = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Backbone.Marionette.Application();\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Instantiates a new Marionette.Module&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myModule = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;);\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Returns the module you just created&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; theSameModule = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;module-definitions\&quot; class=\&quot;anchor\&quot; href=\&quot;#module-definitions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Module Definitions&lt;/h2&gt;&lt;p&gt;You can provide a definition for your module when you instantiate it.\nDefinitions can either be a callback function or an object literal.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;callback-function-definition\&quot; class=\&quot;anchor\&quot; href=\&quot;#callback-function-definition\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Callback Function Definition&lt;/h3&gt;&lt;p&gt;The callback function definition will be invoked immediately on calling\nthe &lt;code&gt;module&lt;/code&gt; method.&lt;/p&gt;\n&lt;p&gt;It will receive 6 parameters, in this order:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The module itself&lt;/li&gt;\n&lt;li&gt;The Application object&lt;/li&gt;\n&lt;li&gt;Backbone&lt;/li&gt;\n&lt;li&gt;Backbone.Marionette&lt;/li&gt;\n&lt;li&gt;jQuery&lt;/li&gt;\n&lt;li&gt;Underscore&lt;/li&gt;\n&lt;li&gt;Any custom arguments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Within the callback you can attach both private and public\nfunctions and data directly to your module.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(MyModule, MyApp, Backbone, Marionette, $, _)&lt;/span&gt;&lt;/span&gt;{\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// The context of the function is also the module itself&lt;/span&gt;\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt; === MyModule; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; true&lt;/span&gt;\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// Private Data And Functions&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// --------------------------&lt;/span&gt;\n\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myData = &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;this is private data\&quot;&lt;/span&gt;;\n\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myFunction = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(myData);\n  }\n\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// Public Data And Functions&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// -------------------------&lt;/span&gt;\n\n  MyModule.someData = &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;public data\&quot;&lt;/span&gt;;\n\n  MyModule.someFunction = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(MyModule.someData);\n  }\n});\n\n&lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log(MyApp.MyModule.someData); &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; public data&lt;/span&gt;\nMyApp.MyModule.someFunction(); &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; public data&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h4&gt;&lt;a name=\&quot;additional-arguments\&quot; class=\&quot;anchor\&quot; href=\&quot;#additional-arguments\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Additional Arguments&lt;/h4&gt;&lt;p&gt;You can provide additional arguments to the definition\nfunction, allowing you to import 3rd party libraries\nand other resources that you want to have locally scoped to\nyour module.&lt;/p&gt;\n&lt;p&gt;Pass the additional arguments after the\ndefinition itself in the call to &lt;code&gt;module&lt;/code&gt;.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(MyModule, MyApp, Backbone, Marionette, $, _, Lib1, Lib2, LibEtc)&lt;/span&gt;&lt;/span&gt;{\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// Lib1 === LibraryNumber1;&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// Lib2 === LibraryNumber2;&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// LibEtc === LibraryNumberEtc;&lt;/span&gt;\n\n}, LibraryNumber1, LibraryNumber2, LibraryNumberEtc);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h4&gt;&lt;a name=\&quot;splitting-a-module-definition-apart\&quot; class=\&quot;anchor\&quot; href=\&quot;#splitting-a-module-definition-apart\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Splitting A Module Definition Apart&lt;/h4&gt;&lt;p&gt;Sometimes a module definition can become quite long. You can split\napart the definition by making subsequent calls to the &lt;code&gt;module&lt;/code&gt;\nfunction.&lt;/p&gt;\n&lt;p&gt;This can used to split the definition of your module\nacross multiple files.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(MyModule)&lt;/span&gt;&lt;/span&gt;{\n  MyModule.definition1 = &lt;span class=\&quot;hljs-literal\&quot;&gt;true&lt;/span&gt;;\n});\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// The following could be in a separate file&lt;/span&gt;\nMyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(MyModule)&lt;/span&gt;&lt;/span&gt;{\n  MyModule.definition2 = &lt;span class=\&quot;hljs-literal\&quot;&gt;true&lt;/span&gt;;\n});\n\nMyApp.MyModule.definition1; &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; true&lt;/span&gt;\nMyApp.MyModule.definition2; &lt;span class=\&quot;hljs-comment\&quot;&gt;//=&amp;gt; true&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;object-literal-definition\&quot; class=\&quot;anchor\&quot; href=\&quot;#object-literal-definition\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Object Literal Definition&lt;/h3&gt;&lt;p&gt;The object literal definition of a module allows for more flexibility\nthan the callback method. It allows you to, for instance, specify\na custom class for your module.&lt;/p&gt;\n&lt;p&gt;Through the object literal definition you can still set a definition\nfunction through the &lt;code&gt;define&lt;/code&gt; property.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyModule\&quot;&lt;/span&gt;, {\n  define: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(MyModule, MyApp, Backbone, Marionette, $, _)&lt;/span&gt; &lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// Define your module here&lt;/span&gt;\n  }\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h4&gt;&lt;a name=\&quot;specifying-a-custom-module-class\&quot; class=\&quot;anchor\&quot; href=\&quot;#specifying-a-custom-module-class\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Specifying a Custom Module Class&lt;/h4&gt;&lt;p&gt;One of the more useful features of the object literal definition is specifying a custom\nmodule class. You can make a new class using the extend function.&lt;/p&gt;\n&lt;pre&gt;&lt;code&gt;var CustomModule = Marionette.Module.extend({\n  // Custom module properties\n});\n\nMyApp.module(&amp;quot;Foo&amp;quot;, {\n  moduleClass: CustomModule,\n  define: function() {} // You can still use the definition function on custom modules\n});\n&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;When &lt;code&gt;moduleClass&lt;/code&gt; is omitted Marionette will default to instantiating a new &lt;code&gt;Marionette.Module&lt;/code&gt;.&lt;/p&gt;\n&lt;h4&gt;&lt;a name=\&quot;initialize-function\&quot; class=\&quot;anchor\&quot; href=\&quot;#initialize-function\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Initialize Function&lt;/h4&gt;&lt;p&gt;Modules have an &lt;code&gt;initialize&lt;/code&gt; function which is immediately called when the Module is invoked. You can think of the &lt;code&gt;initialize&lt;/code&gt; function as an extension of the constructor.&lt;/p&gt;\n&lt;p&gt;The initialize function is only available through the object literal definition of a Module.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, {\n  startWithParent: &lt;span class=\&quot;hljs-literal\&quot;&gt;false&lt;/span&gt;,\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;( moduleName, app, options )&lt;/span&gt; &lt;/span&gt;{\n    &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.someProperty = &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;someValue&#x27;&lt;/span&gt;;\n  },\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// You can still set a define function&lt;/span&gt;\n  define: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;( Foo )&lt;/span&gt; &lt;/span&gt;{\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log( &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.someProperty ); &lt;span class=\&quot;hljs-comment\&quot;&gt;// Logs &#x27;someValue&#x27;&lt;/span&gt;\n  }\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The &lt;code&gt;initialize&lt;/code&gt; function is passed the same arguments as the constructor.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The moduleName&lt;/li&gt;\n&lt;li&gt;The app&lt;/li&gt;\n&lt;li&gt;The object literal definition of the Module itself (which allows you to pass arbitrary values to your Module)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, {\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;( moduleName, app, options )&lt;/span&gt; &lt;/span&gt;{\n    &lt;span class=\&quot;hljs-built_in\&quot;&gt;console&lt;/span&gt;.log( options.someVar ); &lt;span class=\&quot;hljs-comment\&quot;&gt;// Logs &#x27;someString&#x27;&lt;/span&gt;\n  },\n  someVar: &lt;span class=\&quot;hljs-string\&quot;&gt;&#x27;someString&#x27;&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The initialize function is distinct from the &lt;code&gt;define&lt;/code&gt; function. The primary difference between the two is that &lt;code&gt;initialize&lt;/code&gt; is on the prototype chain, whereas &lt;code&gt;define&lt;/code&gt; is not. What this means is that &lt;code&gt;initialize&lt;/code&gt; can be inherited.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; CustomModule = Marionette.Module.extend({\n  define: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{},    &lt;span class=\&quot;hljs-comment\&quot;&gt;// This is not inherited and will never be called&lt;/span&gt;\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{} &lt;span class=\&quot;hljs-comment\&quot;&gt;// This, on the other hand, will be inherited&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;module-classes\&quot; class=\&quot;anchor\&quot; href=\&quot;#module-classes\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Module Classes&lt;/h2&gt;&lt;p&gt;Module classes can be used as an alternative to the define pattern.&lt;/p&gt;\n&lt;p&gt;The extend function of a Module is identical to the extend functions on other Backbone and Marionette classes. This allows module lifecyle events like &lt;code&gt;onStart&lt;/code&gt; and &lt;code&gt;onStop&lt;/code&gt; to be called directly.&lt;/p&gt;\n&lt;pre&gt;&lt;code&gt;var FooModule = Marionette.Module.extend({\n  startWithParent: false,\n\n  constructor: function(moduleName, app, options) {\n  },\n\n  initialize: function(options, moduleName, app) {\n  },\n\n  onStart: function(options) {\n  },\n\n  onStop: function(options) {\n  },\n});\n\nMyApp.module(&amp;quot;Foo&amp;quot;, FooModule);\n&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If all of the module&amp;#39;s functionality is defined inside its class, then the class can be passed in directly. &lt;code&gt;MyApp.module(&amp;quot;Foo&amp;quot;, FooModule)&lt;/code&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;defining-sub-modules\&quot; class=\&quot;anchor\&quot; href=\&quot;#defining-sub-modules\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Defining Sub-Modules&lt;/h2&gt;&lt;p&gt;Sub-Modules (or &amp;#39;child&amp;#39; Modules) can be defined in a single call by passing\na period-separated list of Modules to be created.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Parent.Child.GrandChild\&quot;&lt;/span&gt;);\n\nMyApp.Parent; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; a valid module object&lt;/span&gt;\nMyApp.Parent.Child; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; a valid module object&lt;/span&gt;\nMyApp.Parent.Child.GrandChild; &lt;span class=\&quot;hljs-comment\&quot;&gt;// =&amp;gt; a valid module object&lt;/span&gt;\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;When defining sub-modules using the dot-notation, the\nparent modules do not need to exist; they&amp;#39;ll be created for you. If a parent\nhas already been instantiated then that instance will be used.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;starting-and-stopping-modules\&quot; class=\&quot;anchor\&quot; href=\&quot;#starting-and-stopping-modules\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Starting And Stopping Modules&lt;/h2&gt;&lt;p&gt;Modules can be started and stopped independently of the application and\nof each other. This allows them to be loaded asynchronously, and also allows\nthem to be shut down when they are no longer needed.&lt;/p&gt;\n&lt;p&gt;This also facilitates unit testing of modules as you can start only the\nmodule that you need in your tests.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;starting-modules\&quot; class=\&quot;anchor\&quot; href=\&quot;#starting-modules\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Starting Modules&lt;/h2&gt;&lt;p&gt;Modules will, by default, start with the parent application. They also have a\n&lt;code&gt;.start&lt;/code&gt; function that can be used to start a stopped module, or a module that&amp;#39;s\nbeen configured to start independently from its parent.&lt;/p&gt;\n&lt;p&gt;In this example, the module will exhibit the default behavior and start automatically\nwith the parent application object&amp;#39;s &lt;code&gt;start&lt;/code&gt; call:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Backbone.Marionette.Application();\n\nMyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// module code goes here&lt;/span&gt;\n});\n\nMyApp.start();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Note that modules loaded after the &lt;code&gt;MyApp.start()&lt;/code&gt; call will be\nimmediately started.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;module-initializers\&quot; class=\&quot;anchor\&quot; href=\&quot;#module-initializers\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Module Initializers&lt;/h3&gt;&lt;p&gt;Modules, like &lt;code&gt;Application&lt;/code&gt; objects, can be configured to have initializers. And just like\nan Application&amp;#39;s initializers, module&amp;#39;s initializers are run anytime that\nthe module is started. Further, there is no limit to the number of initializers it can have.&lt;/p&gt;\n&lt;p&gt;Initializers can be added in the module&amp;#39;s definition function.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(Foo)&lt;/span&gt;&lt;/span&gt;{\n\n  Foo.addInitializer(&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// Do things once the module has started&lt;/span&gt;\n  });\n\n  Foo.addInitializer(&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// You can have more than one initializer&lt;/span&gt;\n  });\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;start-events\&quot; class=\&quot;anchor\&quot; href=\&quot;#start-events\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Start Events&lt;/h3&gt;&lt;p&gt;When starting a module, a &amp;quot;before:start&amp;quot; event will be triggered prior\nto any of the initializers being run. A &amp;quot;start&amp;quot; event will then be\ntriggered after they have been run.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; mod = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyMod\&quot;&lt;/span&gt;);\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;before:start\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff before the module is started&lt;/span&gt;\n});\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;start\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff after the module has been started&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h4&gt;&lt;a name=\&quot;passing-data-to-start-events\&quot; class=\&quot;anchor\&quot; href=\&quot;#passing-data-to-start-events\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Passing Data to Start Events&lt;/h4&gt;&lt;p&gt;&lt;code&gt;.start&lt;/code&gt; takes a single &lt;code&gt;options&lt;/code&gt; parameter that will be passed to start events and their equivalent methods (&lt;code&gt;onStart&lt;/code&gt; and &lt;code&gt;onBeforeStart&lt;/code&gt;.)&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; mod = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyMod\&quot;&lt;/span&gt;);\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;before:start\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(options)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff before the module is started&lt;/span&gt;\n});\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;start\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(options)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff after the module has been started&lt;/span&gt;\n});\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; options = {\n &lt;span class=\&quot;hljs-comment\&quot;&gt;// any data&lt;/span&gt;\n};\nmod.start(options);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;preventing-auto-start-of-modules\&quot; class=\&quot;anchor\&quot; href=\&quot;#preventing-auto-start-of-modules\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Preventing Auto-Start Of Modules&lt;/h3&gt;&lt;p&gt;The default behavior of modules is that they start with the application.\nIf you wish to manually start a module instead, you can change this behavior\nwith the &lt;code&gt;startWithParent&lt;/code&gt; property.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; fooModule = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// prevent starting with parent&lt;/span&gt;\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.startWithParent = &lt;span class=\&quot;hljs-literal\&quot;&gt;false&lt;/span&gt;;\n\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// ... module code goes here&lt;/span&gt;\n});\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// start the app without starting the module&lt;/span&gt;\nMyApp.start();\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// later, start the module&lt;/span&gt;\nfooModule.start();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;The same behavior can be accomplished with the object literal definition:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; fooModule = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, {\n  startWithParent: &lt;span class=\&quot;hljs-literal\&quot;&gt;false&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;When splitting a module across multiple files, it is recommended that you set\n&lt;code&gt;startWithParent&lt;/code&gt; to be false.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;starting-sub-modules-with-parent\&quot; class=\&quot;anchor\&quot; href=\&quot;#starting-sub-modules-with-parent\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Starting Sub-Modules With Parent&lt;/h3&gt;&lt;p&gt;As you might expect, submodules default to starting with their parent module.\n The starting of sub-modules is done in a depth-first hierarchy traversal.\nThat is, a hierarchy of &lt;code&gt;Foo.Bar.Baz&lt;/code&gt; will start &lt;code&gt;Baz&lt;/code&gt; first, then &lt;code&gt;Bar&lt;/code&gt;,\nand finally &lt;code&gt;Foo&lt;/code&gt;.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{...});\nMyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo.Bar\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{...});\n\nMyApp.start();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;In this example, the &amp;quot;Foo.Bar&amp;quot; module will be started with the call to\n&lt;code&gt;MyApp.start()&lt;/code&gt; because the parent module, &amp;quot;Foo&amp;quot; is (by default) set to start\nwith the app.&lt;/p&gt;\n&lt;p&gt;A sub-module can override this behavior by setting its &lt;code&gt;startWithParent&lt;/code&gt;\nto false. This prevents it from being started by the parent&amp;#39;s &lt;code&gt;start&lt;/code&gt; call.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{...});\n\nMyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo.Bar\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.startWithParent = &lt;span class=\&quot;hljs-literal\&quot;&gt;false&lt;/span&gt;;\n})\n\nMyApp.start();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Now the module &amp;quot;Foo&amp;quot; will be started, but the sub-module &amp;quot;Foo.Bar&amp;quot; will\nnot be started.&lt;/p&gt;\n&lt;p&gt;A sub-module can still be started manually, with this configuration:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo.Bar\&quot;&lt;/span&gt;).start();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;stopping-modules\&quot; class=\&quot;anchor\&quot; href=\&quot;#stopping-modules\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Stopping Modules&lt;/h2&gt;&lt;p&gt;A module can be stopped, or shut down, to clear memory and resources when\nthe module is no longer needed. Like the starting of modules, stopping is done\nin a depth-first hierarchy traversal. That is, a hierarchy of modules like\n&lt;code&gt;Foo.Bar.Baz&lt;/code&gt; will stop &lt;code&gt;Baz&lt;/code&gt; first, then &lt;code&gt;Bar&lt;/code&gt;, and finally &lt;code&gt;Foo&lt;/code&gt;.&lt;/p&gt;\n&lt;p&gt;To stop a module and its children, call the &lt;code&gt;stop&lt;/code&gt; method of a module.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;).stop();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Modules are not automatically stopped by the application. If you wish to\nstop one you must call the &lt;code&gt;stop&lt;/code&gt; method on it, or stop its parent module.\nWhen you stop any parent module, all of its children will be stopped as well.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo.Bar.Baz\&quot;&lt;/span&gt;);\n\nMyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;).stop();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This call to &lt;code&gt;stop&lt;/code&gt; causes the &lt;code&gt;Bar&lt;/code&gt; and &lt;code&gt;Baz&lt;/code&gt; modules to both be stopped\nas they are sub-modules of &lt;code&gt;Foo&lt;/code&gt;. For more information on defining\nsub-modules, see the section &amp;quot;Defining Sub-Modules&amp;quot;.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;module-finalizers\&quot; class=\&quot;anchor\&quot; href=\&quot;#module-finalizers\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Module Finalizers&lt;/h3&gt;&lt;p&gt;Modules also have finalizers that work in an opposite manner to\ninitializers: they are called whenever a module is stopped via the &lt;code&gt;stop&lt;/code&gt; method.\nYou can have as many finalizers as you&amp;#39;d like.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;Foo\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(Foo)&lt;/span&gt;&lt;/span&gt;{\n\n  Foo.addFinalizer(&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// Tear down, shut down and clean up the module in here&lt;/span&gt;\n  });\n\n  Foo.addFinalizer(&lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// Do more things&lt;/span&gt;\n  });\n\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;stop-events\&quot; class=\&quot;anchor\&quot; href=\&quot;#stop-events\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Stop Events&lt;/h3&gt;&lt;p&gt;When stopping a module, a &amp;quot;before:stop&amp;quot; event will be triggered prior\nto any of the finalizers being run. A &amp;quot;stop&amp;quot; event will then be triggered\nafter they have been run.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; mod = MyApp.module(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;MyMod\&quot;&lt;/span&gt;);\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;before:stop\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff before the module is stopped&lt;/span&gt;\n});\n\nmod.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;stop\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// do stuff after the module has been stopped&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&quot;
+}</pre>
+        <h1><a name="marionette-application-module" class="anchor" href="#marionette-application-module"><span class="header-link"></span></a>Marionette.Application.module</h1><p>Marionette Modules allow you to create modular encapsulated logic.
+They can be used to split apart large applications into multiple files,
+and to build individual components of your app.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#basic-usage">Basic Usage</a></li>
+<li><a href="#module-definitions">Module Definitions</a><ul>
+<li><a href="#callback-function-definition">Callback Function Definition</a></li>
+<li><a href="#object-literal-definition">Object Literal Definition</a></li>
+</ul>
+</li>
+<li><a href="#module-classes">Module Classes</a></li>
+<li><a href="#defining-sub-modules">Defining Sub-Modules</a></li>
+<li><a href="#starting-and-stopping-modules">Starting and Stopping Modules</a></li>
+<li><a href="#starting-modules">Starting Modules</a><ul>
+<li><a href="#module-initializers">Module Initializers</a></li>
+<li><a href="#start-events">Start Events</a></li>
+<li><a href="#preventing-auto-start-of-modules">Preventing Auto-Start Of Modules</a></li>
+<li><a href="#starting-sub-modules-with-parent">Starting Sub-Modules With Parent</a></li>
+</ul>
+</li>
+<li><a href="#stopping-modules">Stopping Modules</a><ul>
+<li><a href="#module-finalizers">Module Finalizers</a></li>
+<li><a href="#stop-events">Stop Events</a></li>
+</ul>
+</li>
+</ul>
+<h2><a name="basic-usage" class="anchor" href="#basic-usage"><span class="header-link"></span></a>Basic Usage</h2><p>A module is defined directly from an Application object. To create a module all
+you need to do is give it a name.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+
+<span class="hljs-comment">// Creates a new module named "MyModule"</span>
+<span class="hljs-keyword">var</span> myModule = MyApp.module(<span class="hljs-string">"MyModule"</span>);
+
+MyApp.MyModule; <span class="hljs-comment">// =&gt; a new Marionette.Module object</span>
+
+myModule === MyApp.MyModule; <span class="hljs-comment">// =&gt; true</span>
+</code></pre>
+<p>Modules cannot be overwritten once they are created. Subsequent
+calls to <code>module</code> with the same name argument will not create
+a new module, but instead return the already-created instance.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+
+<span class="hljs-comment">// Instantiates a new Marionette.Module</span>
+<span class="hljs-keyword">var</span> myModule = MyApp.module(<span class="hljs-string">"MyModule"</span>);
+
+<span class="hljs-comment">// Returns the module you just created</span>
+<span class="hljs-keyword">var</span> theSameModule = MyApp.module(<span class="hljs-string">"MyModule"</span>);
+</code></pre>
+<h2><a name="module-definitions" class="anchor" href="#module-definitions"><span class="header-link"></span></a>Module Definitions</h2><p>You can provide a definition for your module when you instantiate it.
+Definitions can either be a callback function or an object literal.</p>
+<h3><a name="callback-function-definition" class="anchor" href="#callback-function-definition"><span class="header-link"></span></a>Callback Function Definition</h3><p>The callback function definition will be invoked immediately on calling
+the <code>module</code> method.</p>
+<p>It will receive 6 parameters, in this order:</p>
+<ul>
+<li>The module itself</li>
+<li>The Application object</li>
+<li>Backbone</li>
+<li>Backbone.Marionette</li>
+<li>jQuery</li>
+<li>Underscore</li>
+<li>Any custom arguments</li>
+</ul>
+<p>Within the callback you can attach both private and public
+functions and data directly to your module.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"MyModule"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(MyModule, MyApp, Backbone, Marionette, $, _)</span></span>{
+
+  <span class="hljs-comment">// The context of the function is also the module itself</span>
+  <span class="hljs-keyword">this</span> === MyModule; <span class="hljs-comment">// =&gt; true</span>
+
+  <span class="hljs-comment">// Private Data And Functions</span>
+  <span class="hljs-comment">// --------------------------</span>
+
+  <span class="hljs-keyword">var</span> myData = <span class="hljs-string">"this is private data"</span>;
+
+  <span class="hljs-keyword">var</span> myFunction = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-built_in">console</span>.log(myData);
+  }
+
+
+  <span class="hljs-comment">// Public Data And Functions</span>
+  <span class="hljs-comment">// -------------------------</span>
+
+  MyModule.someData = <span class="hljs-string">"public data"</span>;
+
+  MyModule.someFunction = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-built_in">console</span>.log(MyModule.someData);
+  }
+});
+
+<span class="hljs-built_in">console</span>.log(MyApp.MyModule.someData); <span class="hljs-comment">//=&gt; public data</span>
+MyApp.MyModule.someFunction(); <span class="hljs-comment">//=&gt; public data</span>
+</code></pre>
+<h4><a name="additional-arguments" class="anchor" href="#additional-arguments"><span class="header-link"></span></a>Additional Arguments</h4><p>You can provide additional arguments to the definition
+function, allowing you to import 3rd party libraries
+and other resources that you want to have locally scoped to
+your module.</p>
+<p>Pass the additional arguments after the
+definition itself in the call to <code>module</code>.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"MyModule"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(MyModule, MyApp, Backbone, Marionette, $, _, Lib1, Lib2, LibEtc)</span></span>{
+
+  <span class="hljs-comment">// Lib1 === LibraryNumber1;</span>
+  <span class="hljs-comment">// Lib2 === LibraryNumber2;</span>
+  <span class="hljs-comment">// LibEtc === LibraryNumberEtc;</span>
+
+}, LibraryNumber1, LibraryNumber2, LibraryNumberEtc);
+</code></pre>
+<h4><a name="splitting-a-module-definition-apart" class="anchor" href="#splitting-a-module-definition-apart"><span class="header-link"></span></a>Splitting A Module Definition Apart</h4><p>Sometimes a module definition can become quite long. You can split
+apart the definition by making subsequent calls to the <code>module</code>
+function.</p>
+<p>This can used to split the definition of your module
+across multiple files.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"MyModule"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(MyModule)</span></span>{
+  MyModule.definition1 = <span class="hljs-literal">true</span>;
+});
+
+<span class="hljs-comment">// The following could be in a separate file</span>
+MyApp.module(<span class="hljs-string">"MyModule"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(MyModule)</span></span>{
+  MyModule.definition2 = <span class="hljs-literal">true</span>;
+});
+
+MyApp.MyModule.definition1; <span class="hljs-comment">//=&gt; true</span>
+MyApp.MyModule.definition2; <span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<h3><a name="object-literal-definition" class="anchor" href="#object-literal-definition"><span class="header-link"></span></a>Object Literal Definition</h3><p>The object literal definition of a module allows for more flexibility
+than the callback method. It allows you to, for instance, specify
+a custom class for your module.</p>
+<p>Through the object literal definition you can still set a definition
+function through the <code>define</code> property.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"MyModule"</span>, {
+  define: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(MyModule, MyApp, Backbone, Marionette, $, _)</span> </span>{
+    <span class="hljs-comment">// Define your module here</span>
+  }
+});
+</code></pre>
+<h4><a name="specifying-a-custom-module-class" class="anchor" href="#specifying-a-custom-module-class"><span class="header-link"></span></a>Specifying a Custom Module Class</h4><p>One of the more useful features of the object literal definition is specifying a custom
+module class. You can make a new class using the extend function.</p>
+<pre><code>var CustomModule = Marionette.Module.extend({
+  // Custom module properties
+});
+
+MyApp.module(&quot;Foo&quot;, {
+  moduleClass: CustomModule,
+  define: function() {} // You can still use the definition function on custom modules
+});
+</code></pre><p>When <code>moduleClass</code> is omitted Marionette will default to instantiating a new <code>Marionette.Module</code>.</p>
+<h4><a name="initialize-function" class="anchor" href="#initialize-function"><span class="header-link"></span></a>Initialize Function</h4><p>Modules have an <code>initialize</code> function which is immediately called when the Module is invoked. You can think of the <code>initialize</code> function as an extension of the constructor.</p>
+<p>The initialize function is only available through the object literal definition of a Module.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, {
+  startWithParent: <span class="hljs-literal">false</span>,
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">( moduleName, app, options )</span> </span>{
+    <span class="hljs-keyword">this</span>.someProperty = <span class="hljs-string">'someValue'</span>;
+  },
+  <span class="hljs-comment">// You can still set a define function</span>
+  define: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">( Foo )</span> </span>{
+    <span class="hljs-built_in">console</span>.log( <span class="hljs-keyword">this</span>.someProperty ); <span class="hljs-comment">// Logs 'someValue'</span>
+  }
+});
+</code></pre>
+<p>The <code>initialize</code> function is passed the same arguments as the constructor.</p>
+<ul>
+<li>The moduleName</li>
+<li>The app</li>
+<li>The object literal definition of the Module itself (which allows you to pass arbitrary values to your Module)</li>
+</ul>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, {
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">( moduleName, app, options )</span> </span>{
+    <span class="hljs-built_in">console</span>.log( options.someVar ); <span class="hljs-comment">// Logs 'someString'</span>
+  },
+  someVar: <span class="hljs-string">'someString'</span>
+});
+</code></pre>
+<p>The initialize function is distinct from the <code>define</code> function. The primary difference between the two is that <code>initialize</code> is on the prototype chain, whereas <code>define</code> is not. What this means is that <code>initialize</code> can be inherited.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> CustomModule = Marionette.Module.extend({
+  define: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{},    <span class="hljs-comment">// This is not inherited and will never be called</span>
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{} <span class="hljs-comment">// This, on the other hand, will be inherited</span>
+});
+</code></pre>
+<h2><a name="module-classes" class="anchor" href="#module-classes"><span class="header-link"></span></a>Module Classes</h2><p>Module classes can be used as an alternative to the define pattern.</p>
+<p>The extend function of a Module is identical to the extend functions on other Backbone and Marionette classes. This allows module lifecyle events like <code>onStart</code> and <code>onStop</code> to be called directly.</p>
+<pre><code>var FooModule = Marionette.Module.extend({
+  startWithParent: false,
+
+  constructor: function(moduleName, app, options) {
+  },
+
+  initialize: function(options, moduleName, app) {
+  },
+
+  onStart: function(options) {
+  },
+
+  onStop: function(options) {
+  },
+});
+
+MyApp.module(&quot;Foo&quot;, FooModule);
+</code></pre><p>If all of the module&#39;s functionality is defined inside its class, then the class can be passed in directly. <code>MyApp.module(&quot;Foo&quot;, FooModule)</code></p>
+<h2><a name="defining-sub-modules" class="anchor" href="#defining-sub-modules"><span class="header-link"></span></a>Defining Sub-Modules</h2><p>Sub-Modules (or &#39;child&#39; Modules) can be defined in a single call by passing
+a period-separated list of Modules to be created.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Parent.Child.GrandChild"</span>);
+
+MyApp.Parent; <span class="hljs-comment">// =&gt; a valid module object</span>
+MyApp.Parent.Child; <span class="hljs-comment">// =&gt; a valid module object</span>
+MyApp.Parent.Child.GrandChild; <span class="hljs-comment">// =&gt; a valid module object</span>
+</code></pre>
+<p>When defining sub-modules using the dot-notation, the
+parent modules do not need to exist; they&#39;ll be created for you. If a parent
+has already been instantiated then that instance will be used.</p>
+<h2><a name="starting-and-stopping-modules" class="anchor" href="#starting-and-stopping-modules"><span class="header-link"></span></a>Starting And Stopping Modules</h2><p>Modules can be started and stopped independently of the application and
+of each other. This allows them to be loaded asynchronously, and also allows
+them to be shut down when they are no longer needed.</p>
+<p>This also facilitates unit testing of modules as you can start only the
+module that you need in your tests.</p>
+<h2><a name="starting-modules" class="anchor" href="#starting-modules"><span class="header-link"></span></a>Starting Modules</h2><p>Modules will, by default, start with the parent application. They also have a
+<code>.start</code> function that can be used to start a stopped module, or a module that&#39;s
+been configured to start independently from its parent.</p>
+<p>In this example, the module will exhibit the default behavior and start automatically
+with the parent application object&#39;s <code>start</code> call:</p>
+<pre><code class="lang-js">MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+
+MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// module code goes here</span>
+});
+
+MyApp.start();
+</code></pre>
+<p>Note that modules loaded after the <code>MyApp.start()</code> call will be
+immediately started.</p>
+<h3><a name="module-initializers" class="anchor" href="#module-initializers"><span class="header-link"></span></a>Module Initializers</h3><p>Modules, like <code>Application</code> objects, can be configured to have initializers. And just like
+an Application&#39;s initializers, module&#39;s initializers are run anytime that
+the module is started. Further, there is no limit to the number of initializers it can have.</p>
+<p>Initializers can be added in the module&#39;s definition function.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(Foo)</span></span>{
+
+  Foo.addInitializer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// Do things once the module has started</span>
+  });
+
+  Foo.addInitializer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// You can have more than one initializer</span>
+  });
+
+});
+</code></pre>
+<h3><a name="start-events" class="anchor" href="#start-events"><span class="header-link"></span></a>Start Events</h3><p>When starting a module, a &quot;before:start&quot; event will be triggered prior
+to any of the initializers being run. A &quot;start&quot; event will then be
+triggered after they have been run.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mod = MyApp.module(<span class="hljs-string">"MyMod"</span>);
+
+mod.on(<span class="hljs-string">"before:start"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// do stuff before the module is started</span>
+});
+
+mod.on(<span class="hljs-string">"start"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// do stuff after the module has been started</span>
+});
+</code></pre>
+<h4><a name="passing-data-to-start-events" class="anchor" href="#passing-data-to-start-events"><span class="header-link"></span></a>Passing Data to Start Events</h4><p><code>.start</code> takes a single <code>options</code> parameter that will be passed to start events and their equivalent methods (<code>onStart</code> and <code>onBeforeStart</code>.)</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mod = MyApp.module(<span class="hljs-string">"MyMod"</span>);
+
+mod.on(<span class="hljs-string">"before:start"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  <span class="hljs-comment">// do stuff before the module is started</span>
+});
+
+mod.on(<span class="hljs-string">"start"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  <span class="hljs-comment">// do stuff after the module has been started</span>
+});
+
+<span class="hljs-keyword">var</span> options = {
+ <span class="hljs-comment">// any data</span>
+};
+mod.start(options);
+</code></pre>
+<h3><a name="preventing-auto-start-of-modules" class="anchor" href="#preventing-auto-start-of-modules"><span class="header-link"></span></a>Preventing Auto-Start Of Modules</h3><p>The default behavior of modules is that they start with the application.
+If you wish to manually start a module instead, you can change this behavior
+with the <code>startWithParent</code> property.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> fooModule = MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+
+  <span class="hljs-comment">// prevent starting with parent</span>
+  <span class="hljs-keyword">this</span>.startWithParent = <span class="hljs-literal">false</span>;
+
+  <span class="hljs-comment">// ... module code goes here</span>
+});
+
+<span class="hljs-comment">// start the app without starting the module</span>
+MyApp.start();
+
+<span class="hljs-comment">// later, start the module</span>
+fooModule.start();
+</code></pre>
+<p>The same behavior can be accomplished with the object literal definition:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> fooModule = MyApp.module(<span class="hljs-string">"Foo"</span>, {
+  startWithParent: <span class="hljs-literal">false</span>
+});
+</code></pre>
+<p>When splitting a module across multiple files, it is recommended that you set
+<code>startWithParent</code> to be false.</p>
+<h3><a name="starting-sub-modules-with-parent" class="anchor" href="#starting-sub-modules-with-parent"><span class="header-link"></span></a>Starting Sub-Modules With Parent</h3><p>As you might expect, submodules default to starting with their parent module.
+ The starting of sub-modules is done in a depth-first hierarchy traversal.
+That is, a hierarchy of <code>Foo.Bar.Baz</code> will start <code>Baz</code> first, then <code>Bar</code>,
+and finally <code>Foo</code>.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{...});
+MyApp.module(<span class="hljs-string">"Foo.Bar"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{...});
+
+MyApp.start();
+</code></pre>
+<p>In this example, the &quot;Foo.Bar&quot; module will be started with the call to
+<code>MyApp.start()</code> because the parent module, &quot;Foo&quot; is (by default) set to start
+with the app.</p>
+<p>A sub-module can override this behavior by setting its <code>startWithParent</code>
+to false. This prevents it from being started by the parent&#39;s <code>start</code> call.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{...});
+
+MyApp.module(<span class="hljs-string">"Foo.Bar"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-keyword">this</span>.startWithParent = <span class="hljs-literal">false</span>;
+})
+
+MyApp.start();
+</code></pre>
+<p>Now the module &quot;Foo&quot; will be started, but the sub-module &quot;Foo.Bar&quot; will
+not be started.</p>
+<p>A sub-module can still be started manually, with this configuration:</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo.Bar"</span>).start();
+</code></pre>
+<h2><a name="stopping-modules" class="anchor" href="#stopping-modules"><span class="header-link"></span></a>Stopping Modules</h2><p>A module can be stopped, or shut down, to clear memory and resources when
+the module is no longer needed. Like the starting of modules, stopping is done
+in a depth-first hierarchy traversal. That is, a hierarchy of modules like
+<code>Foo.Bar.Baz</code> will stop <code>Baz</code> first, then <code>Bar</code>, and finally <code>Foo</code>.</p>
+<p>To stop a module and its children, call the <code>stop</code> method of a module.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>).stop();
+</code></pre>
+<p>Modules are not automatically stopped by the application. If you wish to
+stop one you must call the <code>stop</code> method on it, or stop its parent module.
+When you stop any parent module, all of its children will be stopped as well.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo.Bar.Baz"</span>);
+
+MyApp.module(<span class="hljs-string">"Foo"</span>).stop();
+</code></pre>
+<p>This call to <code>stop</code> causes the <code>Bar</code> and <code>Baz</code> modules to both be stopped
+as they are sub-modules of <code>Foo</code>. For more information on defining
+sub-modules, see the section &quot;Defining Sub-Modules&quot;.</p>
+<h3><a name="module-finalizers" class="anchor" href="#module-finalizers"><span class="header-link"></span></a>Module Finalizers</h3><p>Modules also have finalizers that work in an opposite manner to
+initializers: they are called whenever a module is stopped via the <code>stop</code> method.
+You can have as many finalizers as you&#39;d like.</p>
+<pre><code class="lang-js">MyApp.module(<span class="hljs-string">"Foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(Foo)</span></span>{
+
+  Foo.addFinalizer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// Tear down, shut down and clean up the module in here</span>
+  });
+
+  Foo.addFinalizer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// Do more things</span>
+  });
+
+});
+</code></pre>
+<h3><a name="stop-events" class="anchor" href="#stop-events"><span class="header-link"></span></a>Stop Events</h3><p>When stopping a module, a &quot;before:stop&quot; event will be triggered prior
+to any of the finalizers being run. A &quot;stop&quot; event will then be triggered
+after they have been run.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mod = MyApp.module(<span class="hljs-string">"MyMod"</span>);
+
+mod.on(<span class="hljs-string">"before:stop"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// do stuff before the module is stopped</span>
+});
+
+mod.on(<span class="hljs-string">"stop"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// do stuff after the module has been stopped</span>
+});
+</code></pre>
+
+      </div>
+    </div>
+  </body>
+</html>

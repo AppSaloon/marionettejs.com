@@ -1,0 +1,529 @@
+<html>
+  <head>
+    <title>marionette.region - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select>
+          
+            <option value="v0.1.0">v0.1.0</option>
+          
+            <option value="v0.10.0">v0.10.0</option>
+          
+            <option value="v0.10.1">v0.10.1</option>
+          
+            <option value="v0.10.2">v0.10.2</option>
+          
+            <option value="v0.2.0">v0.2.0</option>
+          
+            <option value="v0.2.1">v0.2.1</option>
+          
+            <option value="v0.2.2">v0.2.2</option>
+          
+            <option value="v0.2.3">v0.2.3</option>
+          
+            <option value="v0.2.4">v0.2.4</option>
+          
+            <option value="v0.2.5">v0.2.5</option>
+          
+            <option value="v0.2.6">v0.2.6</option>
+          
+            <option value="v0.3.0">v0.3.0</option>
+          
+            <option value="v0.3.1">v0.3.1</option>
+          
+            <option value="v0.4.0">v0.4.0</option>
+          
+            <option value="v0.4.1">v0.4.1</option>
+          
+            <option value="v0.4.1a">v0.4.1a</option>
+          
+            <option value="v0.4.2">v0.4.2</option>
+          
+            <option value="v0.4.3">v0.4.3</option>
+          
+            <option value="v0.4.4">v0.4.4</option>
+          
+            <option value="v0.4.5">v0.4.5</option>
+          
+            <option value="v0.4.6">v0.4.6</option>
+          
+            <option value="v0.4.7">v0.4.7</option>
+          
+            <option value="v0.4.8">v0.4.8</option>
+          
+            <option value="v0.5.0">v0.5.0</option>
+          
+            <option value="v0.5.1">v0.5.1</option>
+          
+            <option value="v0.5.2">v0.5.2</option>
+          
+            <option value="v0.6.0">v0.6.0</option>
+          
+            <option value="v0.6.1">v0.6.1</option>
+          
+            <option value="v0.6.2">v0.6.2</option>
+          
+            <option value="v0.6.3">v0.6.3</option>
+          
+            <option value="v0.7.0">v0.7.0</option>
+          
+            <option value="v0.7.1">v0.7.1</option>
+          
+            <option value="v0.7.2">v0.7.2</option>
+          
+            <option value="v0.7.3">v0.7.3</option>
+          
+            <option value="v0.7.4">v0.7.4</option>
+          
+            <option value="v0.7.5">v0.7.5</option>
+          
+            <option value="v0.7.6">v0.7.6</option>
+          
+            <option value="v0.8.0">v0.8.0</option>
+          
+            <option value="v0.8.1">v0.8.1</option>
+          
+            <option value="v0.8.2">v0.8.2</option>
+          
+            <option value="v0.8.3">v0.8.3</option>
+          
+            <option value="v0.8.4">v0.8.4</option>
+          
+            <option value="v0.9.0">v0.9.0</option>
+          
+            <option value="v0.9.1">v0.9.1</option>
+          
+            <option value="v0.9.10">v0.9.10</option>
+          
+            <option value="v0.9.11">v0.9.11</option>
+          
+            <option value="v0.9.12">v0.9.12</option>
+          
+            <option value="v0.9.13">v0.9.13</option>
+          
+            <option value="v0.9.2">v0.9.2</option>
+          
+            <option value="v0.9.3">v0.9.3</option>
+          
+            <option value="v0.9.4">v0.9.4</option>
+          
+            <option value="v0.9.5">v0.9.5</option>
+          
+            <option value="v0.9.6">v0.9.6</option>
+          
+            <option value="v0.9.7">v0.9.7</option>
+          
+            <option value="v0.9.8">v0.9.8</option>
+          
+            <option value="v0.9.9">v0.9.9</option>
+          
+            <option value="v1.0.0">v1.0.0</option>
+          
+            <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+          
+            <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+          
+            <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+          
+            <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+          
+            <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+          
+            <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+          
+            <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+          
+            <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+          
+            <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+          
+            <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+          
+            <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+          
+            <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+          
+            <option value="v1.0.1">v1.0.1</option>
+          
+            <option value="v1.0.2">v1.0.2</option>
+          
+            <option value="v1.0.3">v1.0.3</option>
+          
+            <option value="v1.0.4">v1.0.4</option>
+          
+            <option value="v1.1.0">v1.1.0</option>
+          
+            <option value="v1.2.0">v1.2.0</option>
+          
+            <option value="v1.2.1">v1.2.1</option>
+          
+            <option value="v1.2.2">v1.2.2</option>
+          
+            <option value="v1.2.3">v1.2.3</option>
+          
+            <option value="v1.3.0">v1.3.0</option>
+          
+            <option value="v1.4.0">v1.4.0</option>
+          
+            <option value="v1.4.0beta">v1.4.0beta</option>
+          
+            <option value="v1.4.1">v1.4.1</option>
+          
+            <option value="v1.5.0">v1.5.0</option>
+          
+            <option value="v1.5.1">v1.5.1</option>
+          
+            <option value="v1.6.0">v1.6.0</option>
+          
+            <option value="v1.6.1">v1.6.1</option>
+          
+            <option value="v1.6.2">v1.6.2</option>
+          
+            <option value="v1.6.3">v1.6.3</option>
+          
+            <option value="v1.6.4">v1.6.4</option>
+          
+            <option value="v1.7">v1.7</option>
+          
+            <option value="v1.7.1">v1.7.1</option>
+          
+            <option value="v1.7.2">v1.7.2</option>
+          
+            <option value="v1.7.3">v1.7.3</option>
+          
+            <option value="v1.7.4">v1.7.4</option>
+          
+            <option value="v1.8.0">v1.8.0</option>
+          
+            <option value="v1.8.1">v1.8.1</option>
+          
+            <option value="v1.8.2">v1.8.2</option>
+          
+            <option value="v1.8.3">v1.8.3</option>
+          
+            <option value="v1.8.4">v1.8.4</option>
+          
+            <option value="v1.8.5">v1.8.5</option>
+          
+            <option value="v1.8.6">v1.8.6</option>
+          
+            <option value="v1.8.7">v1.8.7</option>
+          
+            <option value="v1.8.8">v1.8.8</option>
+          
+            <option value="v2.0.0">v2.0.0</option>
+          
+            <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+          
+            <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+          
+            <option value="v2.0.1">v2.0.1</option>
+          
+            <option value="v2.0.2">v2.0.2</option>
+          
+            <option value="v2.0.3">v2.0.3</option>
+          
+            <option value="v2.1.0">v2.1.0</option>
+          
+            <option value="v2.1.0-pre">v2.1.0-pre</option>
+          
+            <option value="v2.2.0">v2.2.0</option>
+          
+            <option value="v2.2.0-pre">v2.2.0-pre</option>
+          
+            <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+          
+            <option value="v2.2.1">v2.2.1</option>
+          
+        </select>
+        <nav>
+          
+            <a href="marionette.application.html">marionette.application</a>
+          
+            <a href="marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="marionette.commands.html">marionette.commands</a>
+          
+            <a href="marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="marionette.controller.html">marionette.controller</a>
+          
+            <a href="marionette.functions.html">marionette.functions</a>
+          
+            <a href="marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="marionette.layout.html">marionette.layout</a>
+          
+            <a href="marionette.region.html">marionette.region</a>
+          
+            <a href="marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <pre>{
+  &quot;tag&quot;: &quot;v1.1.0&quot;,
+  &quot;basename&quot;: &quot;marionette.region&quot;,
+  &quot;filenane&quot;: &quot;marionette.region.md&quot;,
+  &quot;pathname&quot;: &quot;/Users/sam/Desktop/repos/marionettejs.com/.grunt/compileDocs/1411613555901/v1.1.0&quot;,
+  &quot;contents&quot;: &quot;&lt;h1&gt;&lt;a name=\&quot;marionette-region\&quot; class=\&quot;anchor\&quot; href=\&quot;#marionette-region\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Marionette.Region&lt;/h1&gt;&lt;p&gt;Regions provide consistent methods to manage, show and close \nviews in your applications and layouts. They use a jQuery selector\nto show your views in the correct place.&lt;/p&gt;\n&lt;p&gt;Using the &lt;code&gt;Layout&lt;/code&gt; class you can create nested regions.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;documentation-index\&quot; class=\&quot;anchor\&quot; href=\&quot;#documentation-index\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Documentation Index&lt;/h2&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#defining-an-application-region\&quot;&gt;Defining An Application Region&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#initialize-a-region-with-an-el\&quot;&gt;Initialize A Region With An &lt;code&gt;el&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#basic-use\&quot;&gt;Basic Use&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#reset-a-region\&quot;&gt;&lt;code&gt;reset&lt;/code&gt; A Region&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#set-how-views-el-is-attached\&quot;&gt;Set How View&amp;#39;s &lt;code&gt;el&lt;/code&gt; Is Attached&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#attach-existing-view\&quot;&gt;Attach Existing View&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#set-currentview-on-initialization\&quot;&gt;Set &lt;code&gt;currentView&lt;/code&gt; On Initialization&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#call-attachview-on-region\&quot;&gt;Call &lt;code&gt;attachView&lt;/code&gt; On Region&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#region-events-and-callbacks\&quot;&gt;Region Events And Callbacks&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#view-callbacks-and-events-for-regions\&quot;&gt;View Callbacks And Events For Regions&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#custom-region-types\&quot;&gt;Custom Region Types&lt;/a&gt;&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&quot;#attaching-custom-region-types\&quot;&gt;Attaching Custom Region Types&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&quot;#instantiate-your-own-region\&quot;&gt;Instantiate Your Own Region&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;a name=\&quot;defining-an-application-region\&quot; class=\&quot;anchor\&quot; href=\&quot;#defining-an-application-region\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Defining An Application Region&lt;/h2&gt;&lt;p&gt;You can add regions to your applications by calling the &lt;code&gt;addRegions&lt;/code&gt; method on\nyour application instance. This method expects a single hash parameter, with\nnamed regions and either jQuery selectors or &lt;code&gt;Region&lt;/code&gt; objects. You may\ncall this method as many times as you like, and it will continue adding regions\nto the app. &lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.addRegions({\n  mainRegion: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#main-content\&quot;&lt;/span&gt;,\n  navigationRegion: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#navigation\&quot;&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;As soon as you call &lt;code&gt;addRegions&lt;/code&gt;, your regions are available on your\napp object. In the above, example &lt;code&gt;MyApp.mainRegion&lt;/code&gt; and &lt;code&gt;MyApp.navigationRegion&lt;/code&gt;\nwould be available for use immediately.&lt;/p&gt;\n&lt;p&gt;If you specify the same region name twice, the last one in wins.&lt;/p&gt;\n&lt;p&gt;You can also add regions via &lt;code&gt;Layouts&lt;/code&gt;:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;AppLayout = Backbone.Marionette.Layout.extend({\n  template: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#layout-template\&quot;&lt;/span&gt;,\n\n  regions: {\n    menu: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#menu\&quot;&lt;/span&gt;,\n    content: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#content\&quot;&lt;/span&gt;\n  }\n});\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; layout = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; AppLayout();\nlayout.render();\nlayout.menu.show(&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MenuView());\nlayout.content.show(&lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MainContentView());\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;initialize-a-region-with-an-el\&quot; class=\&quot;anchor\&quot; href=\&quot;#initialize-a-region-with-an-el\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Initialize A Region With An &lt;code&gt;el&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;You can specify an &lt;code&gt;el&lt;/code&gt; for the region to manage at the time\nthat the region is instantiated:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; mgr = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Backbone.Marionette.Region({\n  el: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#someElement\&quot;&lt;/span&gt;\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;basic-use\&quot; class=\&quot;anchor\&quot; href=\&quot;#basic-use\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Basic Use&lt;/h2&gt;&lt;p&gt;Once a region is defined, you can call its &lt;code&gt;show&lt;/code&gt;\nand &lt;code&gt;close&lt;/code&gt; methods to display and shut-down a view:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myView = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MyView();\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// render and display the view&lt;/span&gt;\nMyApp.mainRegion.show(myView);\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// closes the current view&lt;/span&gt;\nMyApp.mainRegion.close();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;If you replace the current view with a new view by calling &lt;code&gt;show&lt;/code&gt;,\nit will automatically close the previous view.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-comment\&quot;&gt;// Show the first view.&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myView = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MyView();\nMyApp.mainRegion.show(myView);\n\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// Replace the view with another. The&lt;/span&gt;\n&lt;span class=\&quot;hljs-comment\&quot;&gt;// &#x60;close&#x60; method is called for you&lt;/span&gt;\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; anotherView = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; AnotherView();\nMyApp.mainRegion.show(anotherView);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;-reset-a-region\&quot; class=\&quot;anchor\&quot; href=\&quot;#-reset-a-region\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;code&gt;reset&lt;/code&gt; A Region&lt;/h2&gt;&lt;p&gt;A region can be &lt;code&gt;reset&lt;/code&gt; at any time. This closes any existing view\nbeing displayed, and deletes the cached &lt;code&gt;el&lt;/code&gt;. The next time the\nregion shows a view, the region&amp;#39;s &lt;code&gt;el&lt;/code&gt; is queried from\nthe DOM.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;myRegion.reset();\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This is useful when regions are re-used across view\ninstances, and in unit testing.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;set-how-views-el-is-attached\&quot; class=\&quot;anchor\&quot; href=\&quot;#set-how-views-el-is-attached\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Set How View&amp;#39;s &lt;code&gt;el&lt;/code&gt; Is Attached&lt;/h2&gt;&lt;p&gt;Override the region&amp;#39;s &lt;code&gt;open&lt;/code&gt; method to change how the view is attached\nto the DOM. This method receives one parameter - the view to show.&lt;/p&gt;\n&lt;p&gt;The default implementation of &lt;code&gt;open&lt;/code&gt; is:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;Marionette.Region.prototype.open = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(view)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.$el.empty().append(view.el);\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This replaces the contents of the region with the view&amp;#39;s\n&lt;code&gt;el&lt;/code&gt; / content. You can override &lt;code&gt;open&lt;/code&gt; for transition effects and more.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;Marionette.Region.prototype.open = &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(view)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.$el.hide();\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.$el.html(view.el);\n  &lt;span class=\&quot;hljs-keyword\&quot;&gt;this&lt;/span&gt;.$el.slideDown(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;fast\&quot;&lt;/span&gt;);\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;This example will cause a view to slide down from the top\nof the region, instead of just appearing in place.&lt;/p&gt;\n&lt;h2&gt;&lt;a name=\&quot;attach-existing-view\&quot; class=\&quot;anchor\&quot; href=\&quot;#attach-existing-view\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Attach Existing View&lt;/h2&gt;&lt;p&gt;There are some scenarios where it&amp;#39;s desirable to attach an existing\nview to a region , without rendering or showing the view, and\nwithout replacing the HTML content of the region. For example, SEO and\naccessibiliy often need HTML to be generated by the server, and progressive\nenhancement of the HTML.&lt;/p&gt;\n&lt;p&gt;There are two ways to accomplish this: &lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;set the &lt;code&gt;currentView&lt;/code&gt; in the region&amp;#39;s constructor&lt;/li&gt;\n&lt;li&gt;call &lt;code&gt;attachView&lt;/code&gt; on the region instance&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;a name=\&quot;set-currentview-on-initialization\&quot; class=\&quot;anchor\&quot; href=\&quot;#set-currentview-on-initialization\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Set &lt;code&gt;currentView&lt;/code&gt; On Initialization&lt;/h3&gt;&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myView = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MyView({\n  el: $(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#existing-view-stuff\&quot;&lt;/span&gt;)\n});\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; region = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; Backbone.Marionette.Region({\n  el: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#content\&quot;&lt;/span&gt;,\n  currentView: myView\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;call-attachview-on-region\&quot; class=\&quot;anchor\&quot; href=\&quot;#call-attachview-on-region\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Call &lt;code&gt;attachView&lt;/code&gt; On Region&lt;/h3&gt;&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.addRegions({\n  someRegion: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#content\&quot;&lt;/span&gt;\n});\n\n&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; myView = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MyView({\n  el: $(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#existing-view-stuff\&quot;&lt;/span&gt;)\n});\n\nMyApp.someRegion.attachView(myView);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;region-events-and-callbacks\&quot; class=\&quot;anchor\&quot; href=\&quot;#region-events-and-callbacks\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Region Events And Callbacks&lt;/h2&gt;&lt;p&gt;A region will raise a few events when showing and\nclosing views:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&amp;quot;show&amp;quot; / &lt;code&gt;onShow&lt;/code&gt; - Called on the view instance when the view has been rendered and displayed.&lt;/li&gt;\n&lt;li&gt;&amp;quot;show&amp;quot; / &lt;code&gt;onShow&lt;/code&gt; - Called on the region instance when the view has been rendered and displayed.&lt;/li&gt;\n&lt;li&gt;&amp;quot;close&amp;quot; / &lt;code&gt;onClose&lt;/code&gt; - Called when the view has been closed.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;These events can be used to run code when your region \nopens and closes views.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyApp.mainRegion.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;show\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(view)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// manipulate the &#x60;view&#x60; or do something extra&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// with the region via &#x60;this&#x60;&lt;/span&gt;\n});\n\nMyApp.mainRegion.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;close\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(view)&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// manipulate the &#x60;view&#x60; or do something extra&lt;/span&gt;\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// with the region via &#x60;this&#x60;&lt;/span&gt;\n});\n\nMyRegion = Backbone.Marionette.Region.extend({\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// ...&lt;/span&gt;\n\n  onShow: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(view)&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// the &#x60;view&#x60; has been shown&lt;/span&gt;\n  }\n});\n\nMyView = Marionette.ItemView.extend({\n  onShow: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// called when the view has been shown&lt;/span&gt;\n  }\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3&gt;&lt;a name=\&quot;view-callbacks-and-events-for-regions\&quot; class=\&quot;anchor\&quot; href=\&quot;#view-callbacks-and-events-for-regions\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;View Callbacks And Events For Regions&lt;/h3&gt;&lt;p&gt;The region will call an &lt;code&gt;onShow&lt;/code&gt; method on the view\nthat was displayed. It will also trigger a &amp;quot;show&amp;quot; event\nfrom the view:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;MyView = Backbone.View.extend({\n  onShow: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// the view has been shown&lt;/span&gt;\n  }\n});\n\nview = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; MyView();\n\nview.on(&lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;show\&quot;&lt;/span&gt;, &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;()&lt;/span&gt;&lt;/span&gt;{\n  &lt;span class=\&quot;hljs-comment\&quot;&gt;// the view has been shown.&lt;/span&gt;\n});\n\nMyApp.mainRegion.show(view);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h2&gt;&lt;a name=\&quot;custom-region-types\&quot; class=\&quot;anchor\&quot; href=\&quot;#custom-region-types\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Custom Region Types&lt;/h2&gt;&lt;p&gt;You can define a custom region by extending from\n&lt;code&gt;Region&lt;/code&gt;. This allows you to create new functionality,\nor provide a base set of functionality for your app.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;attaching-custom-region-types\&quot; class=\&quot;anchor\&quot; href=\&quot;#attaching-custom-region-types\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Attaching Custom Region Types&lt;/h3&gt;&lt;p&gt;Once you define a region type, you can attach the\nnew region type by specifying the region type as the\nvalue. In this case, &lt;code&gt;addRegions&lt;/code&gt; expects the constructor itself, not an instance.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; FooterRegion = Backbone.Marionette.Region.extend({\n  el: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#footer\&quot;&lt;/span&gt;\n});\n\nMyApp.addRegions({\n  footerRegion: FooterRegion\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;You can also specify a selector for the region by using\nan object literal for the configuration.&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; FooterRegion = Backbone.Marionette.Region.extend({\n  el: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#footer\&quot;&lt;/span&gt;\n});\n\nMyApp.addRegions({\n  footerRegion: {\n    selector: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#footer\&quot;&lt;/span&gt;,\n    regionType: FooterRegion\n  }\n});\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;Note that a region must have an element to attach itself to. If you\ndo not specify a selector when attaching the region instance to your\nApplication or Layout, the region must provide an &lt;code&gt;el&lt;/code&gt; either in its\ndefinition or constructor options.&lt;/p&gt;\n&lt;h3&gt;&lt;a name=\&quot;instantiate-your-own-region\&quot; class=\&quot;anchor\&quot; href=\&quot;#instantiate-your-own-region\&quot;&gt;&lt;span class=\&quot;header-link\&quot;&gt;&lt;/span&gt;&lt;/a&gt;Instantiate Your Own Region&lt;/h3&gt;&lt;p&gt;There may be times when you want to add a region to your\napplication after your app is up and running. To do this, you&amp;#39;ll\nneed to extend from &lt;code&gt;Region&lt;/code&gt; as shown above and then use\nthat constructor function on your own:&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&quot;lang-js\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;var&lt;/span&gt; SomeRegion = Backbone.Marionette.Region.extend({\n  el: &lt;span class=\&quot;hljs-string\&quot;&gt;\&quot;#some-div\&quot;&lt;/span&gt;,\n\n  initialize: &lt;span class=\&quot;hljs-function\&quot;&gt;&lt;span class=\&quot;hljs-keyword\&quot;&gt;function&lt;/span&gt;&lt;span class=\&quot;hljs-params\&quot;&gt;(options)&lt;/span&gt;&lt;/span&gt;{\n    &lt;span class=\&quot;hljs-comment\&quot;&gt;// your init code, here&lt;/span&gt;\n  }\n});\n\nMyApp.someRegion = &lt;span class=\&quot;hljs-keyword\&quot;&gt;new&lt;/span&gt; SomeRegion();\n\nMyApp.someRegion.show(someView);\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;You can optionally add an &lt;code&gt;initialize&lt;/code&gt; function to your Region\ndefinition as shown in this example. It receives the &lt;code&gt;options&lt;/code&gt;\nthat were passed to the constructor of the Region, similar to\na Backbone.View.&lt;/p&gt;\n&quot;
+}</pre>
+        <h1><a name="marionette-region" class="anchor" href="#marionette-region"><span class="header-link"></span></a>Marionette.Region</h1><p>Regions provide consistent methods to manage, show and close 
+views in your applications and layouts. They use a jQuery selector
+to show your views in the correct place.</p>
+<p>Using the <code>Layout</code> class you can create nested regions.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#defining-an-application-region">Defining An Application Region</a></li>
+<li><a href="#initialize-a-region-with-an-el">Initialize A Region With An <code>el</code></a></li>
+<li><a href="#basic-use">Basic Use</a></li>
+<li><a href="#reset-a-region"><code>reset</code> A Region</a></li>
+<li><a href="#set-how-views-el-is-attached">Set How View&#39;s <code>el</code> Is Attached</a></li>
+<li><a href="#attach-existing-view">Attach Existing View</a><ul>
+<li><a href="#set-currentview-on-initialization">Set <code>currentView</code> On Initialization</a></li>
+<li><a href="#call-attachview-on-region">Call <code>attachView</code> On Region</a></li>
+</ul>
+</li>
+<li><a href="#region-events-and-callbacks">Region Events And Callbacks</a><ul>
+<li><a href="#view-callbacks-and-events-for-regions">View Callbacks And Events For Regions</a></li>
+</ul>
+</li>
+<li><a href="#custom-region-types">Custom Region Types</a><ul>
+<li><a href="#attaching-custom-region-types">Attaching Custom Region Types</a></li>
+<li><a href="#instantiate-your-own-region">Instantiate Your Own Region</a></li>
+</ul>
+</li>
+</ul>
+<h2><a name="defining-an-application-region" class="anchor" href="#defining-an-application-region"><span class="header-link"></span></a>Defining An Application Region</h2><p>You can add regions to your applications by calling the <code>addRegions</code> method on
+your application instance. This method expects a single hash parameter, with
+named regions and either jQuery selectors or <code>Region</code> objects. You may
+call this method as many times as you like, and it will continue adding regions
+to the app. </p>
+<pre><code class="lang-js">MyApp.addRegions({
+  mainRegion: <span class="hljs-string">"#main-content"</span>,
+  navigationRegion: <span class="hljs-string">"#navigation"</span>
+});
+</code></pre>
+<p>As soon as you call <code>addRegions</code>, your regions are available on your
+app object. In the above, example <code>MyApp.mainRegion</code> and <code>MyApp.navigationRegion</code>
+would be available for use immediately.</p>
+<p>If you specify the same region name twice, the last one in wins.</p>
+<p>You can also add regions via <code>Layouts</code>:</p>
+<pre><code class="lang-js">AppLayout = Backbone.Marionette.Layout.extend({
+  template: <span class="hljs-string">"#layout-template"</span>,
+
+  regions: {
+    menu: <span class="hljs-string">"#menu"</span>,
+    content: <span class="hljs-string">"#content"</span>
+  }
+});
+<span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> AppLayout();
+layout.render();
+layout.menu.show(<span class="hljs-keyword">new</span> MenuView());
+layout.content.show(<span class="hljs-keyword">new</span> MainContentView());
+</code></pre>
+<h2><a name="initialize-a-region-with-an-el" class="anchor" href="#initialize-a-region-with-an-el"><span class="header-link"></span></a>Initialize A Region With An <code>el</code></h2><p>You can specify an <code>el</code> for the region to manage at the time
+that the region is instantiated:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mgr = <span class="hljs-keyword">new</span> Backbone.Marionette.Region({
+  el: <span class="hljs-string">"#someElement"</span>
+});
+</code></pre>
+<h2><a name="basic-use" class="anchor" href="#basic-use"><span class="header-link"></span></a>Basic Use</h2><p>Once a region is defined, you can call its <code>show</code>
+and <code>close</code> methods to display and shut-down a view:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> myView = <span class="hljs-keyword">new</span> MyView();
+
+<span class="hljs-comment">// render and display the view</span>
+MyApp.mainRegion.show(myView);
+
+<span class="hljs-comment">// closes the current view</span>
+MyApp.mainRegion.close();
+</code></pre>
+<p>If you replace the current view with a new view by calling <code>show</code>,
+it will automatically close the previous view.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Show the first view.</span>
+<span class="hljs-keyword">var</span> myView = <span class="hljs-keyword">new</span> MyView();
+MyApp.mainRegion.show(myView);
+
+<span class="hljs-comment">// Replace the view with another. The</span>
+<span class="hljs-comment">// `close` method is called for you</span>
+<span class="hljs-keyword">var</span> anotherView = <span class="hljs-keyword">new</span> AnotherView();
+MyApp.mainRegion.show(anotherView);
+</code></pre>
+<h2><a name="-reset-a-region" class="anchor" href="#-reset-a-region"><span class="header-link"></span></a><code>reset</code> A Region</h2><p>A region can be <code>reset</code> at any time. This closes any existing view
+being displayed, and deletes the cached <code>el</code>. The next time the
+region shows a view, the region&#39;s <code>el</code> is queried from
+the DOM.</p>
+<pre><code class="lang-js">myRegion.reset();
+</code></pre>
+<p>This is useful when regions are re-used across view
+instances, and in unit testing.</p>
+<h2><a name="set-how-views-el-is-attached" class="anchor" href="#set-how-views-el-is-attached"><span class="header-link"></span></a>Set How View&#39;s <code>el</code> Is Attached</h2><p>Override the region&#39;s <code>open</code> method to change how the view is attached
+to the DOM. This method receives one parameter - the view to show.</p>
+<p>The default implementation of <code>open</code> is:</p>
+<pre><code class="lang-js">Marionette.Region.prototype.open = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(view)</span></span>{
+  <span class="hljs-keyword">this</span>.$el.empty().append(view.el);
+}
+</code></pre>
+<p>This replaces the contents of the region with the view&#39;s
+<code>el</code> / content. You can override <code>open</code> for transition effects and more.</p>
+<pre><code class="lang-js">Marionette.Region.prototype.open = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(view)</span></span>{
+  <span class="hljs-keyword">this</span>.$el.hide();
+  <span class="hljs-keyword">this</span>.$el.html(view.el);
+  <span class="hljs-keyword">this</span>.$el.slideDown(<span class="hljs-string">"fast"</span>);
+}
+</code></pre>
+<p>This example will cause a view to slide down from the top
+of the region, instead of just appearing in place.</p>
+<h2><a name="attach-existing-view" class="anchor" href="#attach-existing-view"><span class="header-link"></span></a>Attach Existing View</h2><p>There are some scenarios where it&#39;s desirable to attach an existing
+view to a region , without rendering or showing the view, and
+without replacing the HTML content of the region. For example, SEO and
+accessibiliy often need HTML to be generated by the server, and progressive
+enhancement of the HTML.</p>
+<p>There are two ways to accomplish this: </p>
+<ul>
+<li>set the <code>currentView</code> in the region&#39;s constructor</li>
+<li>call <code>attachView</code> on the region instance</li>
+</ul>
+<h3><a name="set-currentview-on-initialization" class="anchor" href="#set-currentview-on-initialization"><span class="header-link"></span></a>Set <code>currentView</code> On Initialization</h3><pre><code class="lang-js"><span class="hljs-keyword">var</span> myView = <span class="hljs-keyword">new</span> MyView({
+  el: $(<span class="hljs-string">"#existing-view-stuff"</span>)
+});
+
+<span class="hljs-keyword">var</span> region = <span class="hljs-keyword">new</span> Backbone.Marionette.Region({
+  el: <span class="hljs-string">"#content"</span>,
+  currentView: myView
+});
+</code></pre>
+<h3><a name="call-attachview-on-region" class="anchor" href="#call-attachview-on-region"><span class="header-link"></span></a>Call <code>attachView</code> On Region</h3><pre><code class="lang-js">MyApp.addRegions({
+  someRegion: <span class="hljs-string">"#content"</span>
+});
+
+<span class="hljs-keyword">var</span> myView = <span class="hljs-keyword">new</span> MyView({
+  el: $(<span class="hljs-string">"#existing-view-stuff"</span>)
+});
+
+MyApp.someRegion.attachView(myView);
+</code></pre>
+<h2><a name="region-events-and-callbacks" class="anchor" href="#region-events-and-callbacks"><span class="header-link"></span></a>Region Events And Callbacks</h2><p>A region will raise a few events when showing and
+closing views:</p>
+<ul>
+<li>&quot;show&quot; / <code>onShow</code> - Called on the view instance when the view has been rendered and displayed.</li>
+<li>&quot;show&quot; / <code>onShow</code> - Called on the region instance when the view has been rendered and displayed.</li>
+<li>&quot;close&quot; / <code>onClose</code> - Called when the view has been closed.</li>
+</ul>
+<p>These events can be used to run code when your region 
+opens and closes views.</p>
+<pre><code class="lang-js">MyApp.mainRegion.on(<span class="hljs-string">"show"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(view)</span></span>{
+  <span class="hljs-comment">// manipulate the `view` or do something extra</span>
+  <span class="hljs-comment">// with the region via `this`</span>
+});
+
+MyApp.mainRegion.on(<span class="hljs-string">"close"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(view)</span></span>{
+  <span class="hljs-comment">// manipulate the `view` or do something extra</span>
+  <span class="hljs-comment">// with the region via `this`</span>
+});
+
+MyRegion = Backbone.Marionette.Region.extend({
+  <span class="hljs-comment">// ...</span>
+
+  onShow: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(view)</span></span>{
+    <span class="hljs-comment">// the `view` has been shown</span>
+  }
+});
+
+MyView = Marionette.ItemView.extend({
+  onShow: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// called when the view has been shown</span>
+  }
+});
+</code></pre>
+<h3><a name="view-callbacks-and-events-for-regions" class="anchor" href="#view-callbacks-and-events-for-regions"><span class="header-link"></span></a>View Callbacks And Events For Regions</h3><p>The region will call an <code>onShow</code> method on the view
+that was displayed. It will also trigger a &quot;show&quot; event
+from the view:</p>
+<pre><code class="lang-js">MyView = Backbone.View.extend({
+  onShow: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// the view has been shown</span>
+  }
+});
+
+view = <span class="hljs-keyword">new</span> MyView();
+
+view.on(<span class="hljs-string">"show"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  <span class="hljs-comment">// the view has been shown.</span>
+});
+
+MyApp.mainRegion.show(view);
+</code></pre>
+<h2><a name="custom-region-types" class="anchor" href="#custom-region-types"><span class="header-link"></span></a>Custom Region Types</h2><p>You can define a custom region by extending from
+<code>Region</code>. This allows you to create new functionality,
+or provide a base set of functionality for your app.</p>
+<h3><a name="attaching-custom-region-types" class="anchor" href="#attaching-custom-region-types"><span class="header-link"></span></a>Attaching Custom Region Types</h3><p>Once you define a region type, you can attach the
+new region type by specifying the region type as the
+value. In this case, <code>addRegions</code> expects the constructor itself, not an instance.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> FooterRegion = Backbone.Marionette.Region.extend({
+  el: <span class="hljs-string">"#footer"</span>
+});
+
+MyApp.addRegions({
+  footerRegion: FooterRegion
+});
+</code></pre>
+<p>You can also specify a selector for the region by using
+an object literal for the configuration.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> FooterRegion = Backbone.Marionette.Region.extend({
+  el: <span class="hljs-string">"#footer"</span>
+});
+
+MyApp.addRegions({
+  footerRegion: {
+    selector: <span class="hljs-string">"#footer"</span>,
+    regionType: FooterRegion
+  }
+});
+</code></pre>
+<p>Note that a region must have an element to attach itself to. If you
+do not specify a selector when attaching the region instance to your
+Application or Layout, the region must provide an <code>el</code> either in its
+definition or constructor options.</p>
+<h3><a name="instantiate-your-own-region" class="anchor" href="#instantiate-your-own-region"><span class="header-link"></span></a>Instantiate Your Own Region</h3><p>There may be times when you want to add a region to your
+application after your app is up and running. To do this, you&#39;ll
+need to extend from <code>Region</code> as shown above and then use
+that constructor function on your own:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> SomeRegion = Backbone.Marionette.Region.extend({
+  el: <span class="hljs-string">"#some-div"</span>,
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+    <span class="hljs-comment">// your init code, here</span>
+  }
+});
+
+MyApp.someRegion = <span class="hljs-keyword">new</span> SomeRegion();
+
+MyApp.someRegion.show(someView);
+</code></pre>
+<p>You can optionally add an <code>initialize</code> function to your Region
+definition as shown in this example. It receives the <code>options</code>
+that were passed to the constructor of the Region, similar to
+a Backbone.View.</p>
+
+      </div>
+    </div>
+  </body>
+</html>
